@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Callme: пример</title>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<style>body { padding: 0 20%; font-size: 13px; font-family: "PT Sans", Arial; }
+#footer { position: fixed; left: 0; bottom: 0; padding: 10px; background: #f9f9f9; width: 100%; }
+#footer, #footer * { color: #aaa; }
+dir { background:#ffe; padding: 3px 15px; border: 1px solid #FBFAE6; }
+</style>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<script>var cm_style = "apple"; cm_bt = 1;</script>
+
+<script type="text/javascript" src="/callme/js/callme.js"></script>
+
+</head>
+<body>
+<h1>Тестируем CallMe 1.7.2</h1>
+
+<p>Давайте посмотрим, как работает CallMe. Нажмите на любую из ссылок ниже.</p>
+<p><a href="#" class="callme_viewform">Кликайте на любую ссылку</a>, чтобы показать форму заказа</p>
+<p><a href="#" class="callme_viewform">Вообще на любую</a>.</p>
+<p><a href="#" class="callme_viewform">Кликайте</a> на любую из них повторно, чтобы форма скрылась.</p>
+<p>Все очень просто: любому объекту, который должен по клику показывать или скрывать форму, добавляйте аргумент:</p>
+<dir>class="callme_viewform"</dir>
+
+<h2>Как менять темплейты</h2>
+<p>Чтобы сменить темплейт, добавьте <b>перед</b> вызовом callme.js такой код:</p>
+<dir>&#60;script&#62; var cm_style = "vk"; &#60;/script&#62;</dir>
+
+Если хотите убрать кнопку справа, это сделать просто, добавляйте:
+<dir>&#60;script&#62; var cm_bt = 0; &#60;/script&#62;</dir>
+
+<h2>Как подключить</h2>
+<p>Чтобы подключить скрипт, закачайте файлы из этого архива в папку callme к себе на хостинг и вставьте в тег head такую строку:</p>
+<dir>&#60;script type="text/javascript" src="/callme/js/callme.js"&#62;&#60;/script&#62;</dir>
+
+<h2>Проблемы?</h2>
+<p>Если что-то не получается, читайте ответы на часто задаваемые вопросы <a href="http://dedushka.org/kod/1834.html">здесь</a>.</p>
+
+<div id="footer">Спасибо за использование скрипта. Не забывайте следить за новыми версиями <a href="http://dedushka.org/">на сайте</a> и <a href="http://qbx.me/">на форуме</a>. Спасибо за поддержку!</div></body></html>

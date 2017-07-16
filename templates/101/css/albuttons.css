@@ -1,0 +1,70 @@
+.icon{vertical-align: middle;display: inline-block;cursor: pointer;height: 16px;width: 16px;}
+.albutton{display:inline-block;vertical-align:middle;font:bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif!important;text-decoration:none!important;text-shadow:1px 1px 2px rgba(0,0,0,0.20);background:none;border:none;white-space:nowrap;cursor:pointer;user-select:none;-moz-user-select:none;overflow:visible;margin:0;padding:0 5px 0 0;outline: none}
+.albutton span{display:block;height:24px;padding-right:12px;background-repeat:no-repeat;background-position:right top}
+.albutton span span{padding-right:0;padding-left:12px;line-height:24px;background-position:left top}
+.albutton span span span{padding-left:21px;background-image:none;background-repeat:no-repeat;background-position:left center}
+.albutton span span span.after{padding-left:0;padding-right:21px;background-position:right center}
+.albutton.alicononly span span span{padding-left:16px}
+.albutton.alicononly span span span.after{padding-left:0;padding-right:16px}
+.albutton[disabled],.albutton[disabled]:hover,.albutton[disabled]:focus,.albutton[disabled]:active,.albutton.disabled,.albutton.disabled:hover,.albutton.disabled:focus,.albutton.disabled:active{color:#333!important;cursor:inherit;text-shadow:none;opacity:0.33}
+.albutton:hover span,.albutton:focus span{background-position:100% -24px}
+.albutton:hover span span,.albutton:focus span span{background-position:0 -24px}
+.albutton:active span{background-position:100% -48px}
+.albutton:active span span{background-position:0 -48px}
+.albutton[disabled] span,.albutton.disabled span{background-position:100% -72px}
+.albutton[disabled] span span,.albutton.disabled span span{background-position:0 -72px}
+.albutton:hover span span span,.albutton:focus span span span,.albutton:active span span span,.albutton[disabled] span span span,.albutton.disabled span span span{background-position:left center}
+.albutton:hover span span span.after,.albutton:focus span span span.after,.albutton:active span span span.after,.albutton[disabled] span span span.after,.albutton.disabled span span span.after{background-position:right center}
+.albutton img{margin-right:5px;vertical-align:text-top}
+.albutton img.after{margin-right:0;margin-left:5px}
+.albutton.almedium{font-size:15px!important}
+.albutton.allarge{font-size:18px!important}
+.albutton.alorange,.albutton.alorange:hover,.albutton.alorange:focus{color:#530707!important}
+.albutton.alorange[disabled],.albutton.alorange[disabled]:hover,.albutton.alorange[disabled]:active,.albutton.alorange[disabled]:focus,.albutton.alorange.disabled,.albutton.alorange.disabled:hover,.albutton.alorange.disabled:active,.albutton.alorange.disabled:focus{color:#333!important}
+.albutton.alorange span{background-image:url(../images/button_rightgr.png)}
+.albutton.alorange span span{background-image:url(../images/button_leftgr.png)}
+.albutton span.ok{background-image:url(../images/silk/tick.png)!important}
+.albutton span.cancel,span.cancel{background-image:url(../images/silk/cross.png)!important;background-repeat: no-repeat}
+.albutton span.add{background-image:url(../images/silk/add.png)!important}
+.albutton span.delete{background-image:url(../images/silk/delete.png)!important}
+.albutton span.download{background-image:url(../images/silk/arrow_down.png)!important}
+.albutton span.download2{background-image:url(../images/silk/package_down.png)!important}
+.albutton span.upload{background-image:url(../images/silk/arrow_up.png)!important}
+.albutton span.search{background-image:url(../images/silk/magnifier.png)!important}
+.albutton span.find{background-image:url(../images/silk/find.png)!important}
+.albutton span.first{background-image:url(../images/silk/resultset_first.png)!important}
+.albutton span.prev{background-image:url(../images/silk/resultset_previous.png)!important}
+.albutton span.next,span.next {background-image:url(../images/silk/resultset_next.png)!important;background-repeat: no-repeat}
+.albutton span.last{background-image:url(../images/silk/resultset_last.png)!important}
+.albutton span.play{background-image:url(../images/silk/play_blue.png)!important}
+.albutton span.pause{background-image:url(../images/silk/pause_blue.png)!important}
+.albutton span.rewind{background-image:url(../images/silk/rewind_blue.png)!important}
+.albutton span.forward{background-image:url(../images/silk/forward_blue.png)!important}
+.albutton span.stop{background-image:url(../images/silk/stop_blue.png)!important}
+.albutton span.reload{background-image:url(../images/silk/reload.png)!important}
+.albutton span.sync{background-image:url(../images/silk/arrow_refresh.png)!important}
+.albutton span.save{background-image:url(../images/silk/disk.png)!important}
+.albutton span.email{background-image:url(../images/silk/email.png)!important}
+.albutton span.print{background-image:url(../images/silk/printer.png)!important}
+.albutton span.dollar{background-image:url(../images/silk/money_dollar.png)!important}
+.albutton span.view_list{background-image:url(../images/silk/application_view_list.png)!important}
+.albutton span.package{background-image:url(../images/silk/package.png)!important}
+.albutton span.accept{background-image:url(../images/silk/accept.png)!important}
+.albutton span.decline{background-image:url(../images/silk/decline.png)!important}
+.albutton span.help{background-image:url(../images/silk/help.png)!important}
+.albutton span.home{background-image:url(../images/silk/house.png)!important}
+.albutton span.info{background-image:url(../images/silk/information.png)!important}
+.albutton span.cut{background-image:url(../images/silk/cut.png)!important}
+.albutton span.copy{background-image:url(../images/silk/page_white_copy.png)!important}
+.albutton span.paste{background-image:url(../images/silk/paste_plain.png)!important}
+.albutton span.erase{background-image:url(../images/silk/erase.png)!important}
+.albutton span.undo{background-image:url(../images/silk/arrow_undo.png)!important}
+.albutton span.redo{background-image:url(../images/silk/arrow_redo.png)!important}
+.albutton span.edit{background-image:url(../images/silk/pencil.png)!important}
+.albutton span.calendar{background-image:url(../images/silk/date.png)!important}
+.albutton span.user{background-image:url(../images/silk/user.png)!important}
+.albutton span.settings{background-image:url(../images/silk/cog.png)!important}
+.albutton span.cartadd{background-image:url(../images/silk/cart_add.png)!important}
+.albutton span.wand{background-image:url(../images/silk/wand.png)!important}
+.albutton span.wrench{background-image:url(../images/silk/wrench.png)!important}
+.albutton span.clear,span.clear{background-image:url(../images/silk/cancel.png)!important;background-repeat: no-repeat}

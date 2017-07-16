@@ -1,0 +1,47 @@
+
+.mmnb {font-weight: bold;}
+.mc3fn{font-size: 12px;background:url(../images/g_center.png) repeat-y;margin: 3px 0 10px 0;padding: 25px 2px 5px 5px;width: 211px;}
+.nsm_btn_2 {background:url(../images/gmc0.jpg) 10px 0 repeat-y;}
+.lm_cat,.lm_site{font-family:Arial,Helvetica,sans-serif;font-size: 13px}
+.lm_cat ul{margin: 0;padding: 0;}
+.lm_cat li,.lm_site li{list-style-type: none;margin: 0;}
+.lm_cat li>div,.lm_site li>div{-moz-border-radius:  2px 0px 0px 2px; 
+ -webkit-border-radius:  2px 0px 0px 2px; 
+ -khtml-border-radius: 2px 0px 0px 2px;
+ border-radius:  3px 0px 0px 3px;
+ -moz-box-shadow:-3px 0px 1px rgba(0, 0, 0, 0.196);
+ -webkit-box-shadow:-3px 0px 1px rgba(0, 0, 0, 0.196);
+cursor: pointer; 
+box-shadow: -3px 0px 1px rgba(0, 0, 0, 0.196);
+margin: 2px 0px 0px 5px;
+padding: 2px 2px 3px 8px;
+}
+.mnlev0 ul{margin: 0 0 5px 15px;}
+.lm_cat li>div{background: url(../images/lml1btn.png) 0 0 repeat-y;position: relative;}
+.lm_cat a,.lm_site a{text-decoration: none; color: black}
+.lm_cat a:hover{text-decoration: none; color:#e51a4b}
+.lmact_2 > div > a{color:#e51a4b}
+.lmact_2 > div > .lm_mark { background: url(../images/cl16.png) no-repeat;
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  left: -20px;
+  top: 50%;
+  margin-top: -9px;}
+  .lm_cnt {  position: absolute;
+  right: 3px !important;
+  top: 100% !important;
+  font-size: 8px;
+  margin-top: -8px;
+  color: #e51a4b;}
+.mnlev0 > li > div {
+	font-style: italic;font-weight: bold; font-size: 14px;}
+.lm_site ul{margin: 0 0 0 10px;padding: 0;}
+.lm_site ul.mnlev1{margin: 0 0 0 25px;padding: 0;}
+.lm_site a:hover{color:#e51a4b}
+.lm_site li>div{background: url(../images/lml1btn.png) 0 0 repeat-y;position: relative;}
+.lm_site li.lmact_1 {  margin: 2px 0px 0px -10px; }
+.lmact_1 > div> a{color:#e51a4b}
+.lm_site .mnlev0 > li {line-height: 20px}
+div.lm_cat {padding-bottom: 20px}

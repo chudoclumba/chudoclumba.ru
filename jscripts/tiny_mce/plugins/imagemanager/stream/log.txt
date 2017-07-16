@@ -1,0 +1,3832 @@
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33309
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.274
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33310
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.276
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33311
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.279
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33312
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.293
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33313
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.295
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33314
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.297
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33315
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.338
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33316
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.355
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33317
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.377
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33318
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.386
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33319
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.397
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33320
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.411
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33321
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.412
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33322
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.417
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33323
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.428
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33324
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.443
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33326
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.454
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33327
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.463
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33328
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.476
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33329
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.478
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33330
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.485
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33331
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.497
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33332
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.515
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33333
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.535
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33335
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.552
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33336
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.565
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33337
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.567
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33338
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.59
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33339
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.592
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33340
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.665
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33341
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235408.67
+    [REQUEST_TIME] => 1461235408
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33609
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.215
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33610
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.257
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33611
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.259
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33612
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.262
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33613
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.276
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33614
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.278
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33615
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.281
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33616
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.318
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33617
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.339
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33618
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.382
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33619
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.388
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33620
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.398
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33621
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.411
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33622
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.421
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33623
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.431
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33624
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.449
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33625
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.451
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33626
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.456
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33627
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.467
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33628
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.485
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33629
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.491
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33630
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.493
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33631
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.504
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33632
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.512
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33633
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.534
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33634
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.536
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33635
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.555
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33636
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.571
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33637
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235546.582
+    [REQUEST_TIME] => 1461235546
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33756
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.247
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bicolor.jpg&u=32624
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33757
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.249
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Bride.jpg&u=27994
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33758
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.256
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Sylphide.jpg&u=34913
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33759
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.272
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Allium_sphaerocephalon.jpg&u=101198
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33760
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.274
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_De_Caen_Mixed.jpg&u=39577
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33761
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.286
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mount_Everest.jpg&u=30222
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33762
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.354
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Apollo.jpg&u=32747
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33763
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.356
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Surprise_Party.jpg&u=48579
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33764
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.367
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Karaoke_Party.jpg&u=39905
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33765
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.369
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Athyrium_niponicum_Burgundy_Lace.jpg&u=47102
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33766
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.413
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Sparkling_Contrast.jpg&u=65431
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33767
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.418
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Lord_Lieutenant.jpg&u=36295
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33768
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.427
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Mr.Fokker.jpg&u=39278
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33769
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.438
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Acidanthera_Murielae_NEW.jpg&u=36550
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33770
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.449
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Blanda_Splendour_Mixed.jpg&u=37188
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33771
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.468
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Creme_de_la_Creme.jpg&u=53211
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33772
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.47
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Admiral.jpg&u=37914
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33773
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.481
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Hollandia.jpg&u=28708
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33774
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.499
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Ending_Blue.jpg&u=28037
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33775
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.501
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Achillea_Rainbow_Yellow_Bouquet.jpg&u=61260
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33776
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.507
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_Governor.jpg&u=27878
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33777
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.551
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Fellowship.jpg&u=32774
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33778
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.552
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33779
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.583
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_White_Splendour_NEW.jpg&u=43674
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33780
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.585
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aster_Andenken_an_Alma_Potschke.jpg&u=15714
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33781
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.604
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_blanda_Blue_Shades_NEW.jpg&u=46516
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33782
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.607
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33783
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.623
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Anemone_St.Brigid_Mixed.jpg&u=38368
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33784
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.625
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33785
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.631
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Babiana_stricta_mix_NEW.jpg&u=94986
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33786
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.644
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Astilbe_Partiezz_Beach_Party.jpg&u=28962
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REMOTE_PORT] => 33787
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php?cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/stream/index.php
+    [REQUEST_TIME_FLOAT] => 1461235596.737
+    [REQUEST_TIME] => 1461235596
+    [argv] => Array
+        (
+            [0] => cmd=im.thumb&path=%7B0%7D/Luk_KL_prochie/Aquilegia_chrystana_Yellow_Queen.jpg&u=53452
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)

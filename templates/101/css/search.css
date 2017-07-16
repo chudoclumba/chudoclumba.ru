@@ -1,0 +1,7 @@
+* html .search_form{margin-top:-2px}
+.content_search cite{color:green;font-style:normal;margin:2px 0}
+.content_search div{margin:2px 0 12px}
+.content_search h3{font-size:14px;margin:2px 0 0}
+.search_form{border:0 solid red;left:0;padding:9px 20px 10px 39px;position:absolute;top:277px}
+.src_inp{background:none;border:0 solid red;color:#000;margin:0;width:166px}
+.src_sub{background:none;border:0 solid red;cursor:pointer;margin:0 0 0 2px;width:47px}

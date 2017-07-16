@@ -1,0 +1,12 @@
+
+*, * a, * td {
+ background:none !important;
+ color:#000 !important;
+}
+d.yashare-auto-init, .peredovik, .counter, .monolit {
+ display:none !important;
+}
+
+.mc1  {
+ display:none !important;
+}

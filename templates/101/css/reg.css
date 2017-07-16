@@ -1,0 +1,16 @@
+.reg_form .h2{font-size: 14px;text-align: center;padding: 0 0 5px}
+.reg_form a{color:#008c00;}
+.reg_form .reg_msg {font-weight: bold; text-align: center;color:#a20000;padding: 0px 5px 2px;}
+.reg_form .b_msg {font-weight: normal; text-align: left;padding: 0px 5px 5px;}
+.b_msg span{font-weight: bold;color:#e51a4b}
+.reg_msg a {color:#008c00;text-decoration: underline;}
+.reg_mesp1 p,.reg_mesp2 p{text-align:center;margin:0}
+.usermenu{line-height: 16px}
+.usermenu img {display:inline-block; vertical-align:middle;}
+.usermenu a{color:#000000;text-decoration: none;vertical-align: middle;}
+.usermenu a:hover{color:#e51a4b;text-decoration: none;}
+.act {list-style-type: circle!important;padding: 0 0 3px 8px!important;margin: 0px -5px;}
+.reg_form li {list-style-type: none;padding: 0 0 3px 3px}
+.reg_form ul {list-style-position: inside;list-style-type: disc;padding:0px;margin: 0px;display: inline-block; }
+.reg_form .key {width: 100%;}
+.reg_form .key td{text-align: center;padding: 3px 0px 7px;}

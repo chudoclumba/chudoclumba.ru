@@ -1,0 +1,19 @@
+* , * a, * td {background:none !important;color:#000 !important}
+body,td{color:#000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 12px;vertical-align: top}
+.outer_content{padding:5px 0 5px 0;text-align:justify}
+.outer_content #news_all{display:none;margin-bottom:20px}
+.outer_content table td p{margin:0}
+td.line1{height:74px;border-bottom: 1px solid #e51a4b;position: relative;}
+html{background:#ffffff}
+.w100 {	width: 100%}
+.h100 {	height: 100%}
+.yashare-auto-init, .peredovik, .counter, .monolit, .lm_cat, .lm_site,.b-share-popup-wrap {display:none !important}
+nav,#fixeddiv,#cme_form,#cme_back,#callme,#dbt,.mc1,.mc3,.mcnp,.noprint,.chkc,.map,.sql_log {display:none !important}
+.top_text{background:url(../images/logo15.png) no-repeat !important;height:64px;left:0px;position:absolute;top:0px;width:187px;z-index: 1000;}
+.top_phone,.top_phone1{color: #000;font-family: Verdana,Arial,Helvetica, sans-serif;font-size: 17px;font-weight: bold;left: 230px;position: absolute;text-align: left;top: 37px;background:url(../images/tel.png) no-repeat !important;height:28px ;padding:6px 0 0 28px }
+.top_phone1{top: 5px;}
+.line4 {border-top: 1px solid black}
+.ppr_mt {border: solid 1px #c49c84;border-collapse: collapse;}
+.ppr_mt th {border-left: dotted 1px #c49c84; border-bottom: solid 1px #c49c84;}
+.ppr_mt td {border-left: dotted 1px #c49c84;  border-bottom: solid 1px #c49c84;}
+.nextpage { display:block; page-break-before:always; }

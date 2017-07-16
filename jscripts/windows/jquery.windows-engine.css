@@ -1,0 +1,59 @@
+.window-container
+{
+	width:150px;
+	position:absolute;
+
+	left:350;
+	top:200;
+	font-size:13px;
+	font-family:verdana;
+}
+
+.window-titleBar
+{
+	cursor: move;
+	overflow: hidden;
+}
+
+
+.window-statusBar
+{
+	width:100%;
+	height:15px;
+	text-indent: 3px;
+	font: bold 13px Arial;
+	background-color: #F48438;
+	border:1px solid #DD5A00;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+
+.window-minimizeButton
+{
+	position: absolute;
+	right: 40px;
+	top: 6px;
+	cursor: pointer;
+}
+
+.window-maximizeButton
+{
+	position: absolute;
+	right: 20px;
+	top: 6px;
+	cursor: pointer;
+}
+
+ .window-closeButton
+{
+	position: absolute;
+	right: 5px;
+	top: 6px;
+	cursor: pointer;
+}
+
+.window-resizeIcon
+{
+	float: right;
+	cursor: nw-resize;
+}

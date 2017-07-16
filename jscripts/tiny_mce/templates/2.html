@@ -1,0 +1,28 @@
+<div id="countdown_dashboard">
+<div class="dash hours_dash"><span class="dash_title">часы</span>
+<div class="digit">0</div>
+<div class="digit">0</div>
+</div>
+<div class="dash minutes_dash"><span class="dash_title">минуты</span>
+<div class="digit">0</div>
+<div class="digit">0</div>
+</div>
+<div class="dash seconds_dash"><span class="dash_title">секунды</span>
+<div class="digit">0</div>
+<div class="digit">0</div>
+</div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+ $('#countdown_dashboard').countDown({
+ targetDate: {
+ 'day': 8,
+ 'month': 10,
+ 'year': 2014,
+ 'hour': 11,
+ 'min': 0,
+ 'sec': 0
+ }
+ });
+ });
+</script>

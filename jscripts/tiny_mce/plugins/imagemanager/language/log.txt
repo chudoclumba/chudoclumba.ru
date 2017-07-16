@@ -1,0 +1,125 @@
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [REMOTE_PORT] => 33305
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => type=im
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php?type=im
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [REQUEST_TIME_FLOAT] => 1461235407.831
+    [REQUEST_TIME] => 1461235407
+    [argv] => Array
+        (
+            [0] => type=im
+        )
+
+    [argc] => 1
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [REMOTE_PORT] => 33605
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => type=im
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php?type=im
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [REQUEST_TIME_FLOAT] => 1461235545.905
+    [REQUEST_TIME] => 1461235545
+    [argv] => Array
+        (
+            [0] => type=im
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => http://chudoclumba.ru/
+)
+SERVER Array
+(
+    [HTTP_X_HTTPS] => 1
+    [HTTP_HOST] => chudoclumba.ru
+    [HTTP_X_FORWARDED_FOR] => 93.123.149.59
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.17
+    [HTTP_ACCEPT] => text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => https://chudoclumba.ru/jscripts/tiny_mce/plugins/imagemanager/pages/im/index.html
+    [HTTP_COOKIE] => PHPSESSID=823533727d605901f196ffb3be28ac9e
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.22
+    [SERVER_NAME] => chudoclumba.ru
+    [SERVER_ADDR] => 127.0.3.234
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 93.123.149.59
+    [DOCUMENT_ROOT] => /home/c/chudocl/public_html
+    [SERVER_ADMIN] => support@timeweb.ru
+    [SCRIPT_FILENAME] => /home/c/chudocl/public_html/jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [REMOTE_PORT] => 33750
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => type=im
+    [REQUEST_URI] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php?type=im
+    [SCRIPT_NAME] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [PHP_SELF] => /jscripts/tiny_mce/plugins/imagemanager/language/index.php
+    [REQUEST_TIME_FLOAT] => 1461235595.78
+    [REQUEST_TIME] => 1461235595
+    [argv] => Array
+        (
+            [0] => type=im
+        )
+
+    [argc] => 1
+)
+config Array
+(
+    [0] => https://chudoclumba.ru/
+)

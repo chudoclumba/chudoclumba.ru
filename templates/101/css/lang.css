@@ -1,0 +1,59 @@
+.langs {
+cursor:pointer;
+display:block;
+height:25px;
+position:absolute;
+top:9px;
+width:31px;
+left:50%;
+z-index:9090;
+}
+
+.lang_rus {
+margin-left:-172px;
+}
+
+.lang_eng {
+margin-left:-210px;
+}
+
+
+.lang_rus2 {
+ background:url(../images/rus.png) no-repeat;
+height:24px;
+position:absolute;
+right:208px;
+cursor:pointer;
+top:208px;
+width:192px;
+}
+
+
+.lang_eng2 {
+ background:url(../images/eng.png) no-repeat;
+height:24px;
+position:absolute;
+right:208px;
+top:208px;
+cursor:pointer;
+width:192px;
+}
+
+.second_lang_rus {
+ background:url(../images/rus.png) no-repeat;
+height:24px;
+position:absolute;
+cursor:pointer;
+right:232px;
+top:231px;
+width:168px;
+}
+.second_lang_eng {
+ background:url(../images/eng.png) no-repeat;
+height:24px;
+cursor:pointer;
+position:absolute;
+right:232px;
+top:231px;
+width:168px;
+}

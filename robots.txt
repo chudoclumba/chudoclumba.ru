@@ -1,0 +1,28 @@
+User-Agent: Yandex
+Disallow: /*utm_
+Disallow: /*_openstat
+Disallow: /*gclid
+Disallow:/m/
+Disallow: /ajax/
+Disallow: /service/
+Disallow: /ishop/order
+Disallow: /ishop/advsearch
+Disallow: /thumb.php?id=&x=250&y=250&crop
+Disallow: /ishop/prd_vs
+Disallow: /favicon.ico
+Clean-param: utm_source&utm_medium&utm_term&utm_campaign / 
+Clean-param: _openstat / 
+Clean-param: gclid /
+Host: chudoclumba.ru
+
+User-Agent: *
+Disallow: /*utm_
+Disallow: /*_openstat
+Disallow: /*gclid
+Disallow: /service/
+Disallow: /ishop/order
+Disallow: /ajax/
+Disallow: /ishop/advsearch
+
+Sitemap: https://chudoclumba.ru/sitemap.xml
+Sitemap: https://chudoclumba.ru/image-sitemap.xml

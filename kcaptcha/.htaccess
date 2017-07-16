@@ -1,0 +1,22 @@
+php_flag magic_quotes_gpc 0
+php_flag magic_quotes_runtime 0
+php_flag magic_quotes_sybase 0
+
+php_value session.cookie_lifetime 86400
+php_value session.gc_maxlifetime 86400
+
+php_flag register_globals off
+php_flag safe_mode on
+php_flag display_errors off
+php_flag log_errors on
+php_flag allow_url_fopen off
+
+php_value upload_max_filesize 5000M
+php_value post_max_size 5000M
+php_value session.save_handler files
+DirectoryIndex i.php
+Options -Indexes
+
+
+
+DefaultLanguage ru

@@ -1,0 +1,46 @@
+<?php
+define('SQLLOG', 0);
+//$tm=microtime(true);
+define('ROOT_DIR', '/home/c/chudocl/public_html/');
+define('INC_DIR', ROOT_DIR.'includes/');
+include INC_DIR.'dbconf.php';
+include INC_DIR.'dbtables.php';
+require INC_DIR.'dbconnect.php';
+global $db;
+$res=array();
+function get_scatcnt($catid)
+{
+	global $db;
+	$q = $db->count(TABLE_CATEGORIES,array('parent_id'=>$catid));
+	return $q;
+}
+
+function get_streesubcat($cat,$lvl=1)
+{
+	$ret=array();
+	global $db;
+	$rows = $db->get_rows("SELECT id from ".TABLE_CATEGORIES." where parent_id=".$cat.' and visible=1 and enabled=1');
+	foreach($rows as $val)
+	{
+		$ret[]=$val['id'];
+		if (get_scatcnt($val['id'])>0) $ret=array_merge($ret,get_streesubcat($val['id'],$lvl+1));
+	}
+	return $ret;
+}
+
+$ct=$db->get_rows('select id from chudo_ishop_categories');
+foreach($ct  as $val){
+	$res=get_streesubcat($val['id']);
+	if (count($res)>0){
+		sort($res);
+		$sql1='SELECT count(id) as cnt FROM chudo_ishop_products WHERE cat_id IN('.implode(',',$res).') && enabled = 1 && visible = 1';
+		$cnt=$db->get_rows($sql1);
+		$db->update(TABLE_CATEGORIES,$val['id'],array('cnt'=>$cnt[0]['cnt']));	
+	} else {
+		$sql1='SELECT count(id) as cnt FROM chudo_ishop_products WHERE cat_id ='.$val['id'].' && enabled = 1 && visible = 1';
+		$cnt=$db->get_rows($sql1);
+		$db->update(TABLE_CATEGORIES,$val['id'],array('cnt'=>$cnt[0]['cnt']));	
+	}
+}
+//echo sprintf('%.5f', microtime(true) - $tm);
+//echo $db->write_dump();

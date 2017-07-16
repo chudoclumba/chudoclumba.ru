@@ -1,0 +1,98 @@
+.photka_outer {
+ text-align:center;
+ padding-bottom:20px;
+}
+
+.photka {
+ border:1px solid #ccc;
+ width:100px;
+ height:100px;
+}
+
+.photka_title {
+
+ padding:3px 0px;
+}
+
+.photka_ttl_once {
+
+ padding:3px 0px;
+}
+
+.photo_r {
+ width:33%;
+ text-align:center;
+ padding-bottom:20px;
+}
+
+
+
+.photo_all {
+ 
+}
+
+.gphoto-album-cover-date, .gphoto-album-cover-photocount {
+font-size:80%;
+margin:0.15em 0 0;
+}
+
+
+.gphoto-album-cover-title {
+font-weight:bold;
+margin:0;
+}
+
+.gphoto-album-cover-link {
+text-decoration:none;
+color:#666666 !important;
+}
+
+
+
+html > body .goog-inline-block {
+display:inline-block;
+}
+
+
+
+.goog-icon-list-icon-img-div  {
+height:auto;
+}
+
+
+.photo_cat_cell {
+ width:33%;
+ text-align:center;
+}
+
+.photo_cat_cell_m {
+ width:20%;
+}
+
+.photo_cat_cell img {
+ border:3px solid #f3de63;
+ margin-bottom:5px;
+}
+
+.photo_cat_cell a {
+ text-decoration:none;
+ font-weight:bold;
+ color:#9C3000;
+}
+
+.photo_bg {
+ text-align:center;
+ padding:4px 0px 20px 0px;
+}
+
+.photo_bg img {
+ border:3px solid #f3de63;
+}
+
+.photo_cat_cell_m img.active {
+ outline:2px solid #f00;
+}
+
+.cat_small_photo {
+ height:110px;
+}

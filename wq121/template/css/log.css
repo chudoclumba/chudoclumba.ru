@@ -1,0 +1,46 @@
+html, body {
+height:100%;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+#rem{
+position:absolute;
+bottom:5px;
+left:3px;	
+}
+#box {
+background:url(../images/logomob.png) no-repeat 0px 0px #fff ;
+position: relative;
+width:230px;
+height:90px;
+font-family:Tahoma;
+font-size:13px;
+padding: 10px 20px 5px 2px;line-height: 30px; text-align: right;margin: 10px;
+	background-color: #ffffff;border:1px #AEACAC solid; /* стили рамки */
+ -moz-border-radius:  10px; /* закругление для старых Mozilla Firefox */
+ -webkit-border-radius:  10px; /* закругл. для старых Chrome и Safari */
+ -khtml-border-radius: 10px; /* закругл. для браузера Konquerer системы Linux */
+ border-radius:  10px; /* закругление углов для всех, кто понимает */
+box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.400)
+}
+
+input {background:#ffe7d5;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:1px solid #E19436;font-family:Tahoma;font-size:12px;font-weight:400;padding: 2px 5px }
+input:focus{background:#fff}
+#submit {
+position:absolute;
+bottom:5px;
+right:20px;
+}
+
+#submit input {
+background:url(../images/z1btn.jpg);
+border:0px;
+width:132px;
+height:21px;
+font-family:Tahoma;
+font-size:12px;
+color:#ffffff;
+}
