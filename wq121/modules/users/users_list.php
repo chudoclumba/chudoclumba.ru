@@ -101,7 +101,20 @@ if('Отправить сообщение' == 'on'){
 	if (empty($inf)) {
 		echo 'Клиент не найден.';
 	} else {
-		
+		//Site::gI()->getRealOrderSumm("0");
+        //TODO REAL ORDER SUM
+$orders_sum = 0;
+        $orders = $db->get_rows('select id as order_id from '.TABLE_ORDERS.' where status != 6 && user_id='.$_GET['vID']);
+        if(!empty($orders))
+        {
+            foreach ($orders as $or_row)
+            {
+                $order_id = $or_row["order_id"];
+                $orders_sum += Site::gI()->getRealOrderSumm($order_id);
+            }
+        }
+//echo "ORDERS SUM = ".$orders_sum, '<br>';
+
 	$infcart = $db->get_rows('SELECT c.id, c.date,c.datec, c.userid, c.ip, c.isset, c.scooc, sum(d.cnt) as cnt FROM '.TABLE_CART.' c left join '.TABLE_CART_DET.' d on d.cartid=c.id where c.userid='.$_GET['vID'].' group by c.id');
 	$dop_rows = $db->get_rows('select * from '.TABLE_FEED.' where enabled=1 order by sort');
 	$ord_inf = $db->get_rows('select sum(summa*(100-skidka)/100) as sm, count(summa) as cnt, sum(sumotgr) as so from '.TABLE_ORDERS.' where status != 6 && user_id='.$_GET['vID']);
@@ -201,7 +214,7 @@ if('Отправить сообщение' == 'on'){
 	  <td class="news_td cli" style="padding-right:20px;" onclick="view_userorders(this,<?=$_GET['vID']?>);">Заказов</td>
 	  <td class="news_td"><?php  echo $ord_inf[0]['cnt']?></td>
 	  <td class="news_td" style="padding-right:20px;">На сумму</td>
-	  <td class="news_td"><?php  echo number_format($ord_inf[0]['sm'],2,'.','')?></td>
+	  <td class="news_td"><?php  echo number_format($orders_sum,2,'.','')?></td>
 	 </tr>
 	  <tr>
 	  <td class="news_td" style="padding-right:20px;">Отгрузка</td>

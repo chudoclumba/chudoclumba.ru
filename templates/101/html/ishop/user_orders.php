@@ -42,19 +42,20 @@ foreach($info as $id=>$val) {
 	$bk=(isset(Site::gI()->sets['yak']) && (Site::gI()->sets['yak']==1 && ((Site::gI()->sets['yaktst']==1 && User::gI()->user_role>0) || Site::gI()->sets['yaktst']==0)) && $val['status']<6 && $val['summa']-$val['summa']*$val['skidka']/100-$val['sumopl']>0) ? '<a href="service/pay_a/'.$val['id'].'">'.$kr_on.'</a>' : '';
 	$bk=(isset(Site::gI()->sets['tinkoff']) && (Site::gI()->sets['tinkoff']==1 ) && $val['status']<6 && $val['summa']-$val['summa']*$val['skidka']/100-$val['sumopl']>0) ? '<a href="service/pay_a/'.$val['id'].'/tin">'.$kr_on.'</a>' : '';
 	$kvit=($val['status']<6 && $val['summa']-$val['summa']*$val['skidka']/100-$val['sumopl']>0) ? '<a href="service/kvit/'.$val['id'].'">'.$kv_on.'</a>' : '';
-
+    $order_sum = Site::gI()->getRealOrderSumm($val['id']);
 ?>
  <tr>
   <td><?=date('d.m.y', $val['data'])?></td>
   <td class="tcen"><a href="service/orders/<?=$val['id']?>" title="Состав заказа"><?=$val['id']?></a></td>
-  <td class="t_price"><?=(($val['summa']>0) ? $this->s_price($val['summa']-($val['summa']*$val['skidka']/100),0) : '&nbsp;')?></td>
+<!--  <td class="t_price">--><?//=(($val['summa']>0) ? $this->s_price($val['summa']-($val['summa']*$val['skidka']/100),0) : '&nbsp;')?><!--</td>-->
+     <td class="t_price"><?=(($order_sum>0) ? $this->s_price($order_sum,0) : '&nbsp;')?></td>
   <td class="t_price"><?=(($val['sumopl']>0) ? $this->s_price($val['sumopl'],0) : '&nbsp;')?></td>
   <td class="t_price"><?=(($val['sumotgr']>0) ? $this->s_price($val['sumotgr'],0) : '&nbsp;')?></td>
   <td class=""><?=$val['tstatus'].$di?></td>
   <td class="oper"><a href="service/orders/<?=$val['id']?>"><?=$tu_on?></a><?=$bk.$kvit?></td>
  </tr>
 <?
-$summa_all += $val['summa']-$val['summa']*$val['skidka']/100;
+$summa_all += $order_sum;//$val['summa']-$val['summa']*$val['skidka']/100;
 $sumopl_all += $val['sumopl'];
 $sumotgr_all += $val['sumotgr'];
 }?>

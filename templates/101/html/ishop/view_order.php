@@ -124,7 +124,8 @@ if (count($ord)>0){
 				<?=$val['kodstr']?>
 			   <? } ?>
 </td>
-<?php if ($val['prd_id']>0){ ?>
+<?php
+        if ($val['prd_id']>0){ ?>
   <td class=""><a style="text-decoration: none;" href="<?=$link?>"><?=$val['kodtov'].'&nbsp;'.$val['name']?></a></td>
  <? } else { ?>
   <td class=""><?=$val['kodtov'].'&nbsp;'.$val['name']?></td>

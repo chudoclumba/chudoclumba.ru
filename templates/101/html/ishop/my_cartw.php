@@ -23,7 +23,9 @@
 $ps='--';
 $zk=0;
 $sum=0;
+$sum_for_sale = 0;
 $sale=0;
+
 if(!empty($this->sets['mod_prd_skidka']) && !empty($_SESSION['user']))
 {
 	$orders1 = $this->db->get_rows("SELECT SUM(summa*(100-skidka)/100) as summa FROM ".TABLE_ORDERS." WHERE user_id = '".$_SESSION['user']."' && status != 6");
@@ -53,7 +55,11 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
 	if ($prdi[0]['saletype']==1)
 		if ($val['cnt']>$prdi[0]['ost']) $val['cnt']=($prdi[0]['ost']>0)?$prdi[0]['ost']:0;
 	$sum+=$this->skidka($val['tsena']*$val['cnt'], $val['skidka']);
-		
+
+//echo $val['skidka'];
+
+	if(!Site::gI()->isProductForSale($val['prdid']))
+	    $sum_for_sale += $val['tsena']*$val['cnt'];
 
 ?>
     <tr id="cp_<?=$id?>" <?echo(($val['active'] && ($prdi[0]['ost']>0 || $prdi[0]['saletype']==0)) ? '' : 'style="background:#ffff00"')?>>
@@ -142,7 +148,7 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                             Скидка
                                         </td>
                                         <td>
-                                            <span class="s-price sumsk"><?=$this->s_price_c(($sum*$sale)/100)?></span>
+                                            <span class="s-price sumsk"><?=$this->s_price_c(($sum_for_sale*$sale)/100)?></span>
                                         </td>
                                     </tr>
 
@@ -154,7 +160,7 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                             <strong>Общая сумма</strong>
                                         </td>
                                         <td>
-                                            <strong><span class="s-price sumall"><?$skidka = (!empty($sale)) ? ($sum*$sale)/100 : 0;echo $this->s_price_c($sum - $skidka)?></span></strong>
+                                            <strong><span class="s-price sumall"><?$skidka = (!empty($sale)) ? ($sum_for_sale*$sale)/100 : 0;echo $this->s_price_c($sum - $skidka)?></span></strong>
                                         </td>
                                     </tr>
                                 </tfoot>

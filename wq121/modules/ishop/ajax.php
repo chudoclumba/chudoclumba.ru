@@ -248,7 +248,7 @@ elseif($_GET['act'] == 'load_data'){
 		echo $end_data;
 	}
 }
-elseif($_GET['act'] == 'load_price'){
+elseif($_GET['act'] == 'load_price'){ // TODO загрузка
 ob_start();?>
 <h3>Загрузка каталога в формате CSV</h3>
 <div style="padding:20px;">

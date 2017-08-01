@@ -687,6 +687,7 @@ class Ishop extends Site{
 				$cat = $this->db->get(TABLE_PRODUCTS, $_GET['id']);
 				if($_GET['id'] < 0 || !is_numeric($_GET['id']) ||
 					count($cat) == 0 || empty($cat) || in_array($cat['cat_id'], $this->disabled) || $cat['visible'] == 0){
+                    error_log("Call 404 from ishop2.php: 690");
 					$product = $this->_404();
 				}
 				else{
@@ -705,6 +706,7 @@ class Ishop extends Site{
 					}
 					if(!empty($cat['vlink']) && $this->sets['cpucat']==1 && $cat['vlink'] != substr($_SERVER['REQUEST_URI'], 1))
 					{
+                        error_log("Fatal in iShop2.php:708");
 						header("HTTP/1.1 301 Moved Permanently");
 						$this->redirect($cat['vlink']);
 						exit();
@@ -1436,6 +1438,7 @@ width:\'90%\',height:\'90%\',autoSize:false,closeClick:false,openEffect	: \'none
 				}
 				else
 				{
+                    error_log("Call 404 from ishop2.php: 1441");
 					$this->_404();
 				}
 				break;
@@ -1574,7 +1577,10 @@ width:\'90%\',height:\'90%\',autoSize:false,closeClick:false,openEffect	: \'none
 			}
 			default:
 			{
-				if(!empty($_GET['type'])) $this->_404();
+				if(!empty($_GET['type'])) {
+                    error_log("Call 404 from ishop2.php: 1581");
+				    $this->_404();
+                }
 				define('CAT_SIZE',4);
 				$row_size = '1';
 				$col_size = '4';
@@ -1587,11 +1593,13 @@ width:\'90%\',height:\'90%\',autoSize:false,closeClick:false,openEffect	: \'none
 				$cats_dir = $this->cats($_GET['id']);
 				$this->update_all();
 				if(!empty($cat_inf['vlink']) && $this->sets['cpucat']==1 && $cat_inf['vlink'] != substr($_SERVER['REQUEST_URI'], 1) && !isset($_GET['page'])){
-					header("HTTP/1.1 301 Moved Permanently");
+                    error_log("Fatal in iShop2.php:1591");
+				    header("HTTP/1.1 301 Moved Permanently");
 					$this->redirect($cat_inf['vlink']);
 					exit();
 				}
 				if(($cat_inf === false ) || in_array($_GET['id'], $this->disabled))	{
+                    error_log("Call 404 from ishop2.php: 1602");
 					$catalog .= $this->_404();
 				}
 				if($this->sets['mod_search']) $catalog .= $this->view('ishop/adv_search');

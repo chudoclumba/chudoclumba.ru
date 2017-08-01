@@ -64,6 +64,7 @@ class News extends Site
 		}
 		else
 		{
+            error_log("Call 404 from news.php: 67");
 			echo $this->_404();
 		}
 		return $content;
@@ -81,6 +82,7 @@ class News extends Site
 		
 		if(!is_numeric($page) || $page < 0 || $page > $c_pages)
 		{
+            error_log("Call 404 from news.php: 85");
 			echo $this->_404();
 		}
 		else

@@ -632,6 +632,21 @@ function Close_prd($prd)
 	return 'ID:'.($rows[0]['enabled']*$rows[0]['visible']).':'.$prd;
 }
 
+function isProductForSale($productId)
+{
+    global $db;
+    $bRes = false;
+    $q="SELECT param_starayatsena from chudo_ishop_products where id=".$productId;
+    $result = $db->get_rows($q);
+    if(!empty($result))
+    {
+        $sprice = $result[0]["param_starayatsena"];
+        if($sprice > 0)
+            $bRes = true;
+    }
+    return $bRes;
+}
+
 function getzak()
 {
     global $db;
@@ -653,13 +668,29 @@ function getzak()
     $pr=$rows[0]['summa'];
     $sk=$rows[0]['skidka'];
 	$rows = $db->get_rows("SELECT d.prd_id,d.name,d.summa,d.count,d.todel,d.skidka, p.title, p.param_kodtovara FROM ".TABLE_ORDERS_PRD." d,".TABLE_PRODUCTS." p WHERE d.order_id = ".quote_smart($id)." && p.id = d.prd_id order by d.kodstr");
+	$order_sum = 0;
+	$skidka_sum = 0;
 	foreach($rows as $id=>$row)
 	{
+	    $skidka_prd = 0;
+	    $summa_prd = 0;
+	    if(!isProductForSale($row['prd_id']))
+        {
+            $skidka_prd = $row['skidka'];
+            $summa_prd = $row['summa'];
+            $skidka_sum += $skidka_prd;
+        }
+        else
+        {
+            $skidka_prd = 0;
+            $summa_prd = $row['summa'];
+        }
+        $order_sum += $summa_prd * $row['count'];
 		$tcont1.="ID;{$row['prd_id']};{$row['param_kodtovara']};{$row['name']};";
-		$tcont1.="{$row['summa']};{$row['count']};{$row['todel']};{$row['skidka']};\n";
+		$tcont1.="{$row['summa']};{$row['count']};{$row['todel']};{$skidka_prd};\n";
 	}
- 	$tcont1 .='Сумма;'.number_format($res[0]['summas'], 2, ',', '')."\n";
- 	$tcont1 .='Скидка;'.number_format($res[0]['summa']-$res[0]['summas'], 2, ',', '')."\n";
+ 	$tcont1 .='Сумма;'.number_format($order_sum, 2, ',', '')."\n";
+ 	$tcont1 .='Скидка;'.number_format($skidka_sum, 2, ',', '')."\n";
  	return $tcont1;
 
 }

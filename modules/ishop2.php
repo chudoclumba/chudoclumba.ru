@@ -15,6 +15,8 @@ class Ishop extends Site{
 	public $open_pages = array(11);  //Всегда открытые разделы
 	public $subcats = array();
 	private $prd_list_style = 'prdlistnew';
+
+
 	public function __construct($db, $sets, $ebox)	{
 		$this->db = Site::gI()->db;
 		$this->sets = $sets;
@@ -42,6 +44,8 @@ class Ishop extends Site{
 			if(!empty($card_inf['0']['skidka'])) $this->card = $card_inf['0']['skidka'];
 		}
 	}
+
+
 	function get_catnm($id,$islink=1,$tid=0){
 	    $catpinf = $this->db->get(TABLE_CATEGORIES,$id);
 	    if (!(count($catpinf)>0)) return '';
@@ -57,10 +61,14 @@ class Ishop extends Site{
 			if (!empty($r)) $nm=$r.$nm;
 		}
 		return $nm;
-	}	
+	}
+
+
 	function getMenuRows()	{
 		return $this->db->get_rows("SELECT id, parent_id, title, link, visible, vlink,cnt FROM ".TABLE_CATEGORIES." where enabled=1 and visible=1 ORDER BY sort ASC, id ASC");
 	}
+
+
 	function filter_top($id, $curr_c = -1, $curr_v = -1)	{
 		$fltr = $this->filtered_ids;
 		$fl = '';
@@ -100,6 +108,8 @@ class Ishop extends Site{
 		}
 		return $this->view('ishop/filter_top', array('chars'=>$chars, 'chars_v'=>$chars_v, 'curr_c' => $curr_c, 'curr_v' => $curr_v));
 	}
+
+
 	function update_all()	{
 		$this->cat_all = array();
 		$rows = $this->db->get_rows("SELECT id, enabled, parent_id FROM ".TABLE_CATEGORIES."");
@@ -109,6 +119,8 @@ class Ishop extends Site{
 		}
 		$this->recurs_cats($this->cat_all['0'], 1, 1);
 	}
+
+
 	function recurs_cats($cats2, $display, $display2){
 		if(count($cats2) > 0){
 			foreach($cats2 as $c_id=>$c_val){
@@ -121,6 +133,8 @@ class Ishop extends Site{
 			}
 		}
 	}
+
+
 	function count_vs_prd()	{
 		$count = 0;
 		if(!empty($_SESSION['vs_prds']))		{
@@ -128,6 +142,8 @@ class Ishop extends Site{
 		}
 		return $count;
 	}
+
+
 	function specpredloshenie($cnts = 6, $rs = 3)
 	{
 		$cnt = '';
@@ -138,6 +154,8 @@ class Ishop extends Site{
 		}
 		return $cnt;
 	}
+
+
 	function hitprod($cnts = 6, $rs = 3)
 	{
 		$cnt = '';
@@ -148,6 +166,8 @@ class Ishop extends Site{
 		}
 		return $cnt;
 	}
+
+
 	function left_menu_img($cat_id)
 	{
 		$cnt = '';
@@ -168,11 +188,14 @@ class Ishop extends Site{
 		}
 		return $cnt;
 	}
+
+
 	function get_subcats($id)
 	{
 		$rows = $this->db->get_rows("SELECT * FROM ".TABLE_CATEGORIES." WHERE parent_id = ".quote_smart($id)."  && enabled='1' ORDER BY position ASC, id ASC");
 		return $rows;
 	}
+
 
 	function param_list($gvalue, $cr = '')
 	{
@@ -187,10 +210,13 @@ class Ishop extends Site{
 		}
 		return $cnt;
 	}
-	function cart2($type = 0)
+
+
+	function cart2($type = 0) //TODO Скидки
 	{
 		$prd = Cart::gI()->get_cart_info();
 		$summa = Cart::gI()->cart_sum;
+		$summa_for_sale = Cart::gI()->cart_sum_for_sale;
 		$cnt = 'Корзина пуста';
 		if(count($prd) > 0 && $summa > 0)
 		{
@@ -201,13 +227,15 @@ class Ishop extends Site{
 			}
 
 		$cnt .= 'Сумма: '.$this->s_price_c($summa).'<br>
-Скидка по дисконтной карте: '.$this->s_price_c(($summa*$this->card)/100).'<br>
-Всего: '.$this->s_price_c($summa-(($summa*$this->card)/100)).'<br>
+Скидка по дисконтной карте: '.$this->s_price_c(($summa_for_sale*$this->card)/100).'<br>
+Всего: '.$this->s_price_c($summa-(($summa_for_sale*$this->card)/100)).'<br>
 <a href="ishop/cart">Оформление заказа</a>';
 		}
 
 		return $cnt;
 	}
+
+
 	function select($type = 0)
 	{
 		return $this->view('ishop/filter_form');
@@ -217,12 +245,16 @@ class Ishop extends Site{
 		$inf = $this->db->get_rows("SELECT title FROM ".TABLE_CATEGORIES." WHERE id = ".quote_smart($id)."");
 		return $inf['0']['title'];
 	}
+
+
 	function cat($id)
 	{	
 		if ($id==0) return false;
 		$cat_inf = $this->db->get(TABLE_CATEGORIES,$id);
 		return $cat_inf;
 	}
+
+
 	function cats($id)
 	{
 		$cats = $this->db->get_rows("SELECT id,title,foto,cnt,vlink FROM ".TABLE_CATEGORIES." WHERE parent_id = '".$id."' && enabled=1 && visible=1 ORDER BY sort ASC, id ASC");
@@ -236,6 +268,8 @@ class Ishop extends Site{
 		
 		return $cats;
 	}
+
+
 	function get_prd_palitra($prd_id, $text)
 	{
 		$artics = get_elements($text,'articul');
@@ -266,6 +300,8 @@ class Ishop extends Site{
 		$arts .= '</table></td></tr></table></td></tr>';
 		return $arts;
 	}
+
+
 	function get_prd_chars($prd_id, $cat_id)
 	{
 		$charsh = '';
@@ -290,6 +326,8 @@ class Ishop extends Site{
 		}
 		return $charsh;
 	}
+
+
 	function gallery($prd_id)
 	{
 		$fotki = $this->db->get_rows("SELECT * FROM ".TABLE_PRODUCTS." WHERE cat_id = '".$prd_id."' ORDER BY sort ASC");
@@ -318,6 +356,8 @@ class Ishop extends Site{
 		$cnt .= '</td></tr>';
 		return $cnt;
 	}
+
+
 	function get_prd_photos($prd_id)
 	{
 		$imgs = '';
@@ -353,6 +393,8 @@ class Ishop extends Site{
 		}
 		return $imgs;
 	}
+
+
 	function get_prd_rating($prd_id)
 	{
 		$rate_c = $this->db->get_rows("SELECT * FROM ".TABLE_RATING." WHERE products_id = ".quote_smart($prd_id)." && ip = ".quote_smart($_SERVER['REMOTE_ADDR'])."");
@@ -390,6 +432,8 @@ class Ishop extends Site{
 		$product .= '</div>';
 		return $product;
 	}
+
+
 	function get_grrec($gr)
 	{
 		$ret='';
@@ -402,6 +446,8 @@ class Ishop extends Site{
 		if ($cat[0]['parent_id']>0 && $cat[0]['recpar']>0) $ret.=((!empty($ret))?',':'').$this->get_grrec($cat[0]['parent_id']);
 		return $ret;
 	}
+
+
 	function get_prd_recc($cat_id,$gr)
 	{
 		$product='';
@@ -426,11 +472,15 @@ class Ishop extends Site{
 		}
 		return $product;
 	}
+
+
 	function get_prd_comment($prd_id)
 	{
 		$msgs = $this->db->get_rows("SELECT * FROM ".TABLE_COMMENTS." WHERE cat_id=".quote_smart($prd_id)." && module = 2 && enabled = 1 ORDER BY id DESC");
 		return $this->view('ishop/product_comments', array('msgs'=>$msgs));
 	}
+
+
 	function get_all_subcats($cat_id)
 	{
 		$q=array();
@@ -454,12 +504,16 @@ class Ishop extends Site{
 			}
 		}
 	}
+
+
 	function get_act_partr($gr_id)
 	{
 		$row = $this->db->get(TABLE_PRD_GR,$gr_id);
 		$p_ar = explode(',',$row['gr_pr']);
 		return $p_ar;
 	}
+
+
 	function get_act_partr_r($p_id)
 	{
 		$q_r = $this->db->get(TABLE_CATEGORIES,$p_id);
@@ -467,6 +521,8 @@ class Ishop extends Site{
 		$p_ar = explode(',',$row['gr_pr']);
 		return $p_ar;
 	}
+
+
 	function set_act_partr($gr_id, $new_p)
 	{
 		$q_p = "UPDATE ".TABLE_PRD_GR." SET gr_pr = '".$new_p."' WHERE gr_id = '".$gr_id."'";
@@ -474,6 +530,8 @@ class Ishop extends Site{
 		$p_ar = explode(',',$row['gr_pr']);
 		return $p_ar;
 	}
+
+
 	function get_filtered_ids($cat_id)
 	{
 		$poc = array();
@@ -529,6 +587,8 @@ class Ishop extends Site{
 		}
 		return $poc;
 	}
+
+
 	function getPrdCountInCat($cat_id)
 	{
 		$poc = array();
@@ -552,7 +612,8 @@ class Ishop extends Site{
 		return $cnt+count($qd);
 	}
 
-	function products($cat_id, $sort = ' id ASC', $limit = '')
+
+	function products($cat_id, $sort = ' id ASC', $limit = '') //TODO Скидки
 	{
 		$fl = '';
 		$poc = $this->filtered_ids;
@@ -569,6 +630,8 @@ class Ishop extends Site{
 		$prds = $this->db->get_rows($q);
 		return $prds;
 	}
+
+
 	function getPrdCountInBrand($cat)
 	{
 		$q = "SELECT count(id) as cnt FROM ".TABLE_PRODUCTS." WHERE param_brend = '".intval($cat)."' && enabled = 1";
@@ -576,6 +639,8 @@ class Ishop extends Site{
 		if (count($r)>0)	return $r['0']['cnt'];
 		else return 0;
 	}
+
+
 	function getPrdCountInSearch($search_q)
 	{
 		$q = "SELECT count(id) as cnt FROM ".TABLE_PRODUCTS." WHERE ".$search_q;
@@ -583,11 +648,15 @@ class Ishop extends Site{
 		if (count($r)>0)	return $r['0']['cnt'];
 		else return 0;
 	}
+
+
 	function getProductListing($type = 'products_listing_short', $prds, $options = array())
 	{
 		$list = $this->view('ishop/'.$type, array('prds'=>$prds, 'sets'=>$this->sets, 'ebox'=>$this->ebox, 'options'=>$options));
 		return $list;
 	}
+
+
 	function get_mat_list_a($a)
 	{
 		global $db;
@@ -596,6 +665,8 @@ class Ishop extends Site{
 		$cnt .= 'q2121';
 		return $cnt;
 	}
+
+
 	function generate_orderid($user,$period=0,$mail)
 	{
 		if ($user>0) {
@@ -637,7 +708,8 @@ class Ishop extends Site{
 	
 		return array('id'=>$id,'ha'=>$ha,'kodstr'=>1,'new'=>true,'ld'=>0);
 	}
-	
+
+
 	function exists_in_orders($orderid)
 	{
 		$res = false;
@@ -646,7 +718,8 @@ class Ishop extends Site{
 			$res = true;
 		return $res;
 	}
-	
+
+
 	function exists_in_order_details($orderid)
 	{
 		$res = false;
@@ -655,6 +728,7 @@ class Ishop extends Site{
 			$res = true;
 		return $res;
 	}
+
 
 	function next_order_number($user=0, $period=0)
 	{
@@ -682,6 +756,8 @@ class Ishop extends Site{
 		$crcs = $this->db->get_rows("SELECT * FROM ".TABLE_CURRENCY."");
 		return $crcs;
 	}
+
+
 	function addin_products($sort = ' id ASC', $limit = '')
 	{
 		$fl = '';
@@ -697,6 +773,8 @@ class Ishop extends Site{
 //		$prds = $this->db->get_rows("SELECT * FROM ".TABLE_PRODUCTS." WHERE new = 1 ".$fl." && enabled='1' && visible='1' ORDER BY ".$sort." ".$limit."");
 		return $prds;
 	}
+
+
 	function get()
 	{
 		switch ($_GET['type'])
@@ -734,12 +812,15 @@ class Ishop extends Site{
 				$cat = $this->db->get(TABLE_PRODUCTS, $_GET['id']);
 				if($_GET['id'] < 0 || !is_numeric($_GET['id']) ||
 					count($cat) == 0 || empty($cat) || in_array($cat['cat_id'], $this->disabled) || $cat['visible'] == 0){
+                    error_log("Call 404 from ishop2.php: 814");
 					$product = $this->_404();
 				}
 				else{
 					$this->get_menu($cat['cat_id'], $this->getMenuRows());
 					if(!isset($_SESSION[CART])){
-						$_SESSION[CART] = Array();
+					    error_log("Clear CARD from IS:820");
+					//    echo "Clear CARD from IS:820";
+						$_SESSION[CART] = Array(); //TODO empty cart
 					}
 					if(!empty($_POST['rate_send'])){
 						$this->db->insert(TABLE_RATING, array(
@@ -752,6 +833,7 @@ class Ishop extends Site{
 					}
 					if(!empty($cat['vlink']) && $this->sets['cpucat']==1 && $cat['vlink'] != substr($_SERVER['REQUEST_URI'], 1))
 					{
+					    error_log("Fatal in iShop2.php:832");
 						header("HTTP/1.1 301 Moved Permanently");
 						$this->redirect($cat['vlink']);
 						exit();
@@ -776,7 +858,11 @@ class Ishop extends Site{
 			}
 			case 'cart' :  // корзина
 			{	
-				if(empty($_SESSION[CART])) $_SESSION[CART] = array();
+				if(empty($_SESSION[CART])) {
+                    error_log("Clear CARD from IS:861");
+                  //  echo "Clear CARD from IS:861";
+				    $_SESSION[CART] = array();
+                } //TODO empty cart
 				if(count($_POST) > 0)
 				{
 					if (!empty($_POST['ch_cart']))
@@ -789,7 +875,9 @@ class Ishop extends Site{
 				{
 					if($_SESSION[CART][$id]['count'] == 0)
 					{
-						unset($_SESSION[CART][$id]);
+                        error_log("Clear CARD from IS:877");
+                  //      echo "Clear CARD from IS:877";
+						unset($_SESSION[CART][$id]); //TODO empty cart
 					}
 				}
 				if (!empty($_POST['order']) && !empty($_SESSION[CART]) && count($_SESSION[CART]) > 0)
@@ -1487,6 +1575,7 @@ width:\'90%\',height:\'90%\',autoSize:false,closeClick:false,openEffect	: \'none
 				}
 				else
 				{
+                    error_log("Call 404 from ishop2.php: 1569");
 					$this->_404();
 				}
 				break;
@@ -1625,7 +1714,10 @@ width:\'90%\',height:\'90%\',autoSize:false,closeClick:false,openEffect	: \'none
 			}
 			default:
 			{
-				if(!empty($_GET['type'])) $this->_404();
+				if(!empty($_GET['type'])) {
+                    error_log("Call 404 from ishop2.php: 1709");
+				    $this->_404();
+                }
 				define('CAT_SIZE',4);
 				$row_size = '1';
 				$col_size = '4';
@@ -1638,11 +1730,13 @@ width:\'90%\',height:\'90%\',autoSize:false,closeClick:false,openEffect	: \'none
 				$cats_dir = $this->cats($_GET['id']);
 				$this->update_all();
 				if(!empty($cat_inf['vlink']) && $this->sets['cpucat']==1 && $cat_inf['vlink'] != substr($_SERVER['REQUEST_URI'], 1) && !isset($_GET['page'])){
-					header("HTTP/1.1 301 Moved Permanently");
+                    error_log("Fatal in iShop2.php:1719");
+				    header("HTTP/1.1 301 Moved Permanently");
 					$this->redirect($cat_inf['vlink']);
 					exit();
 				}
 				if(($cat_inf === false ) || in_array($_GET['id'], $this->disabled))	{
+                    error_log("Call 404 from ishop2.php: 1730");
 					$catalog .= $this->_404();
 				}
 				if($this->sets['mod_search']) $catalog .= $this->view('ishop/adv_search');

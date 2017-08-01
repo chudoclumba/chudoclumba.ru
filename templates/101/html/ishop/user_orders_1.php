@@ -98,7 +98,7 @@ if (count($ord)>0){
 	
 <?	
 	foreach($ord as $val) {
-		$q="SELECT p.sklad+p.zakazpost-p.reserv-ifnull(tm1.tot,0)-ifnull(cr.ctot,0) as ost,p.saletype from ".TABLE_PRODUCTS." p left join (select prdid,sum(d.cnt) as tot from ".TABLE_ORDERS_REG." d group by prdid) as tm1 on tm1.prdid=p.id left join (select prdid,sum(cnt) as ctot from ".TABLE_CART_DET." dc right join ".TABLE_CART." oc on oc.id=dc.cartid where oc.date>(UNIX_TIMESTAMP()-60*".$this->sets['cart_res_time'].")  group by prdid) as cr on cr.prdid=p.id WHERE p.id={$val['prd_id']}";
+		$q="SELECT p.id, p.sklad+p.zakazpost-p.reserv-ifnull(tm1.tot,0)-ifnull(cr.ctot,0) as ost,p.saletype from ".TABLE_PRODUCTS." p left join (select prdid,sum(d.cnt) as tot from ".TABLE_ORDERS_REG." d group by prdid) as tm1 on tm1.prdid=p.id left join (select prdid,sum(cnt) as ctot from ".TABLE_CART_DET." dc right join ".TABLE_CART." oc on oc.id=dc.cartid where oc.date>(UNIX_TIMESTAMP()-60*".$this->sets['cart_res_time'].")  group by prdid) as cr on cr.prdid=p.id WHERE p.id={$val['prd_id']}";
 		$prdi=$this->db->get_rows($q);
 		$link=SITE_URL.'ishop/product/'.$val['prd_id'];
 		if(!empty($val['vlink']) && $this->sets['cpucat']==1) $link=SITE_URL.$val['vlink'];
@@ -111,7 +111,15 @@ if (count($ord)>0){
 			}
 		}
 		$trclass='';
-		if (!empty($val['prdel'])) $ss=$val['prdel']; else $ss=numprint($this->skidka($val['summa']*$val['count'],$val['skidka']),2,'');
+		if (!empty($val['prdel'])) {
+            $ss = $val['prdel'];
+        }
+		else {
+		    if(!Site::gI()->isProductForSale($val['prd_id']))
+                $ss = numprint($this->skidka($val['summa'] * $val['count'], $val['skidka']), 2, '');
+		    else
+                $ss = numprint($val['summa'] * $val['count'], 2, '0');
+        }
 ?>
 
  <tr <?echo $trclass?>>
@@ -132,12 +140,23 @@ if (count($ord)>0){
  <? } ?>
 <td class="tcen"><?=numprint($val['count']+$val['isdel'],0,'')?></td>
 <td class="t_price"><?=numprint($val['summa'],2,'')?></td>
+
+<? if(!Site::gI()->isProductForSale($val['prd_id'])){ ?>
 <td class="tcen"><?=numprint($val['skidka'],0,'').(($val['skidka']>0)?'%':'')?></td>
+     <? } else { ?>
+     <td class="tcen"><?=numprint(0,0,'0').(($val['skidka']>0)?'%':'')?></td>
+     <? } ?>
+
+
 <td class="t_price"><?=$ss?></td>
+
 <? if ($flupd) echo '<td class="tcen">'.$btndel.'</td>';?>
- </tr><?
-		$summa_all += $this->skidka($val['summa'],$val['skidka'])*$val['count'];
-	
+ </tr>
+        <?
+        if(!Site::gI()->isProductForSale($val['prd_id']))
+		    $summa_all += $this->skidka($val['summa'],$val['skidka'])*$val['count'];
+        else
+            $summa_all += $val['summa'] * $val['count'];
  	}
 $cnt1=5-(!$flupd); 	
 ?>

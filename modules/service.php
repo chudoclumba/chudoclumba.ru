@@ -74,6 +74,7 @@ class Serv extends Site
 		if ($this->summacn>0) $this->addpay=TRUE;
 		return TRUE;
 	}
+
 	public function payinfo(){
 		if(!empty($_POST))
 		{
@@ -106,9 +107,11 @@ class Serv extends Site
 		}
 		else
 		{
+            error_log("Call 404 from service.php: 110");
 			$this->_404();
 		}
 	}
+
 	public function payok(){
 		// http://www.chudoclumba.ru/service/payok?billnumber=5643835205157184&ordernumber=14694&payerdenial=0
 		$ord=((isset($_GET['id']) && $_GET['id']!=-1)? $_GET['id'] : '');
@@ -127,6 +130,9 @@ class Serv extends Site
 			'meta_desc' => '',
 			'path' => 'Оплата заказа '.$ord);
 	}
+
+
+
 	public function track()	{
 		if (isset($_SESSION['user']) && $_SESSION['user']>0) {
 			$pth='<a href="service/deliveryid">Мои посылки</a>->Отслеживание посылки '.$_GET['id'];
@@ -155,6 +161,8 @@ class Serv extends Site
 					'meta_desc' => '',
 					'path' => $pth);
 	}
+
+
 	public function payno()	{
 	 	$html='<p>Ваш платеж не произошел. Повторный платеж вы можете совершить из списка заказов в Личном кабинете</p>';
 		return array (
@@ -164,6 +172,8 @@ class Serv extends Site
 					'meta_desc' => 'Оплата заказа '.$_GET['id'],
 					'path' => 'Оплата заказа '.$_GET['id']);
 	}
+
+
 	public function vieword(){
 
 	 	$html='Запрос неверен. Для получения информации о заказе свяжитесь с менеджерами.';
@@ -183,6 +193,8 @@ class Serv extends Site
 					'path' => 'Состояние заказа',
 					'left_menu'=>false);
 	}
+
+
 	public function qiwipay(){
 		$tel=str_ireplace(' ','',$_POST['tel']);
 		$tel=str_ireplace('(','',$tel);
@@ -198,10 +210,14 @@ class Serv extends Site
 					'meta_desc' => 'test',
 					'path' => 'test');
 	}
+
+
 	public function test(){
 		print_r($_REQUEST);
 		exit();
 	}
+
+
 	public function getpass(){
 		$this_url = SITE_URL.'service/getpass';
 		$cnt = '';
@@ -274,8 +290,13 @@ class Serv extends Site
 			'path' => 'Запрос ссылки для просмотра статуса заказа.'
 		);
 	}
+
+
 	public function zwgxtretqq(){
-		if (!isset($_REQUEST['id']) || !isset($_REQUEST['ha'])) $this->_404();
+		if (!isset($_REQUEST['id']) || !isset($_REQUEST['ha'])) {
+            error_log("Call 404 from service.php: 297");
+		    $this->_404();
+        }
 		$user = $_REQUEST['id'];
 		if (crc32($user)!=$_REQUEST['ha']) {
 			die('errmd5');}
@@ -296,12 +317,19 @@ class Serv extends Site
 		$_SESSION['use_user']=1;
 		$this->redirect(SITE_URL.'service/fin');
 	}
-	
+
+
 	public function zcart(){
-		if (!isset($_GET['id']) || !isset($_GET['params'][0])) $this->_404();
+		if (!isset($_GET['id']) || !isset($_GET['params'][0])) {
+            error_log("Call 404 from service.php: 324");
+		    $this->_404();
+        }
 		$cart = $this->db->get(TABLE_CART, $_GET['id']);
 		$user = $this->db->get(TABLE_USERS, $cart['userid']);
-		if (md5($_GET['id'].$user['id'])!=$_GET['params'][0]) $this->_404();
+		if (md5($_GET['id'].$user['id'])!=$_GET['params'][0]) {
+            error_log("Call 404 from sitemenu.php: 330");
+		    $this->_404();
+        }
 		if (isset($_SESSION['user']) && $_SESSION['user']!=$user['id']){
 			unset($_SESSION['user']);
 			unset($_SESSION['userinf']);
@@ -321,6 +349,8 @@ class Serv extends Site
 		$_SESSION['script'].='<script type="text/javascript">$(window).load(function() {yaCounter16195645.reachGoal(\'Cart_sendmail\')});</script>';
 		$this->redirect(SITE_URL.'ishop/cart');
 	}
+
+
 	public function showh(){
 		$rows = $this->db->get_rows("SELECT  p.*, 1 as active FROM ".TABLE_ORDERS_PRD." o left join ".TABLE_PRODUCTS." p on o.prd_id=p.id WHERE o.order_id = 49307");
 		$html = $this->view('ishop/sendmail_cart', array('prd'=>$rows,'$summa'=>1000));
@@ -334,6 +364,8 @@ class Serv extends Site
 			'path' => 'Обертка письма'
 		);
 	}
+
+
 	public function receive(){
 		if (md5("receive".$_GET['id'])==$_GET['params'][0]){
 			$cnt = $this->db->get(TABLE_SENDORD,array('ord_id'=>$_GET['id']));
@@ -376,6 +408,8 @@ class Serv extends Site
 		);
 		
 	}
+
+
 	private function get_payform($orderamount,$user,$ordernumber,$orderid,$mes='',$pm=''){
 		$p_html="Запрещено";
 		if ($this->epay==true) {
@@ -390,6 +424,8 @@ class Serv extends Site
 		}
 		return $p_html;
 	}
+
+
 	public function savepay(){
 		$res=0;
 		$err='Error in OrderId,OrderNumber or sum.'.print_r($_POST,true);
@@ -440,11 +476,13 @@ class Serv extends Site
 	
 	}
 
+
 	public function pay_a()	{
 		global $gmess;
 		$pm='';
 		if (isset($_GET['params'][0])) $pm=$_GET['params'][0];
 		$serv=Serv::gI();
+		$order_sum = Site::gI()->getRealOrderSumm($_GET['id']);
 		unset($_SESSION['payment']);
 		$flag=$serv->Get_payinfo($_GET['id']);
 //				$html=$vvv.'$needrepay'.$serv->needrepay.'$needrepaywait'.$serv->needrepaywait.'$newpay'.$serv->newpay.'$addpay'.$serv->addpay;
@@ -459,21 +497,21 @@ class Serv extends Site
 		{
 			$_SESSION['payment']=$_GET['id'];
 //			$this->db->exec('update '.TABLE_PAYMENTS.' set date='.time()." where ordernumber='".$serv->ordernumber."'");
-			$html = $this->get_payform($serv->summacn,User::gI()->user,$serv->ordernumber,$_GET['id'],'Для частичной оплаты измените сумму платежа!',$pm);
+			$html = $this->get_payform($order_sum, User::gI()->user,$serv->ordernumber,$_GET['id'],'Для частичной оплаты измените сумму платежа!',$pm);
 			$gmess.='/pay_a_repay';
 			$flag=TRUE;
 		}
 		if (!$flag && $serv->newpay)
 		{
 			$gmess.='/pay_a_newpay';
-			$html = $this->get_payform($serv->summacn,User::gI()->user,$_GET['id'],$_GET['id'],'Для частичной оплаты измените сумму платежа!',$pm);
+			$html = $this->get_payform($order_sum,User::gI()->user,$_GET['id'],$_GET['id'],'Для частичной оплаты измените сумму платежа!',$pm);
 			$flag=true;
 		}
 		if (!$flag && $serv->addpay)
 		{
 			$ordernumber=$_GET['id'].'-'.$serv->vid;
 			$gmess.='/pay_a_addpay';
-			$html = $this->get_payform($serv->summacn,User::gI()->user,$ordernumber,$_GET['id'],'Для частичной оплаты измените сумму платежа!',$pm);
+			$html = $this->get_payform($order_sum,User::gI()->user,$ordernumber,$_GET['id'],'Для частичной оплаты измените сумму платежа!',$pm);
 			$flag=true;
 //					$_SESSION['payment']=$_GET['id'];
 //					$this->db->insert(TABLE_PAYMENTS, array('orderid'=>$_GET['id'],'vid'=>$serv->vid,'ordernumber'=>$ordernumber,
@@ -493,6 +531,8 @@ class Serv extends Site
 			'left_menu'=>false
 		);
 	}
+
+
 	public function kvit() 	{
 		if (strtoupper($_GET['id'])=='BLANK') {
 			$product = $this->view('ishop/kvit', array('zak'=>'', 'sets'=>$this->sets, 'fio'=>'','adr'=>'','sum'=>0));
@@ -517,7 +557,7 @@ class Serv extends Site
 		}
 		if (!empty($_POST['pfio']) && !empty($_POST['padr']) && !empty($_POST['psum']) && $_POST['posted']=='1')
 		{
-			$product = $this->view('ishop/kvit', array('zak'=>$zak, 'sets'=>$this->sets, 'fio'=>$_POST['pfio'],'adr'=>$_POST['padr'],'sum'=>$_POST['psum']));
+			$product = $this->view('ishop/kvit', array('zak'=>$zak, 'sets'=>$this->sets, 'fio'=>$_POST['pfio'],'adr'=>$_POST['padr'],'sum'=>Site::gI()->getRealOrderSumm($_GET['id'])));
 			return array (
 				'html' => $product,
 				'meta_title' => 'Квитанция',
@@ -534,7 +574,7 @@ class Serv extends Site
 		$dr = array(
 			'fio' => $zak['fio'],
 			'adr' => $zak['adr'],
-			'sum' => $zak['summa']-($zak['summa']*$zak['skidka']/100)-$zak['sumopl']
+			'sum' => Site::gI()->getRealOrderSumm($_GET['id'])//$zak['summa']-($zak['summa']*$zak['skidka']/100)-$zak['sumopl']
 		);
 		$product = $this->view('feedback/feedback_new', array('form_data'=>$form_data,'txt_data'=>$dr, 'position' => 'top','btn_name' => 'Продолжить'));
 		
@@ -546,6 +586,8 @@ class Serv extends Site
 			'path' => 'Подготовка квитанции'
 		);
 	}
+
+
 	public function qiwi() {	
 		$zak = $this->db->get(TABLE_ORDERS, $_GET['id']);
 		if(!($zak['user_id']==$_SESSION['user']) || empty($_SESSION['user']))		{
@@ -577,6 +619,8 @@ class Serv extends Site
 			'path' => 'Оплата через Qiwi. Заказ №'.$zak['id']
 		);
 	}
+
+
 	public function deliveryid() {   // идентификаторы
 		if(!empty($_SESSION['user']))
 		{
@@ -595,6 +639,8 @@ class Serv extends Site
 			$this->redirect(SITE_URL);
 		}
 	}
+
+
 	public function orders()    // Мои заказы
 	{
 		if(!empty($_SESSION['user']))
@@ -643,6 +689,8 @@ class Serv extends Site
 			$this->redirect(SITE_URL);
 		}
 	}
+
+
 	public function fin() 	//личный кабинет - личный счет
 	{
 		if(!empty($_SESSION['user']))
@@ -667,6 +715,8 @@ class Serv extends Site
 			$this->redirect(SITE_URL);
 		}
 	}
+
+
 	public function expectedgoods()	{
 		if(!empty($_SESSION['user'])){
 			$_SESSION['umenu']=1;
@@ -684,6 +734,8 @@ class Serv extends Site
 			$this->redirect(SITE_URL);
 		}
 	}
+
+
 	public function deleterow()    // отмена товара из заказа
 	{
 		if(!empty($_GET['id']) && $_GET['id'] > ""){
@@ -730,6 +782,8 @@ class Serv extends Site
 			$this->redirect(SITE_URL);
 		}
 	}
+
+
 	public function GetHits($cnt=9){
 		$sk = $this->db->get_rows("SELECT id,(enabled and visible) as enb,cat_id FROM ".TABLE_PRODUCTS." WHERE visible=1 and enabled = 1 and views>0 order by views desc  LIMIT 30");
 		if (count($sk)<12) 	{
@@ -747,6 +801,8 @@ class Serv extends Site
 		}
 
 	}
+
+
 	public function newitems($cnts = 6)
 	{
 		$cnt = '';
@@ -757,6 +813,8 @@ class Serv extends Site
 		}
 		return $cnt;
 	}
+
+
 	public function send_comment()
 	{
 		if(!empty($_POST['email']) && !empty($_POST['name']) && !empty($_POST['msg'])){
@@ -807,6 +865,7 @@ if ($_GET['module'] == 'service')
 	else
 	{
 //		print_r($_GET);
+        error_log("Call 404 from service.php: 867");
 		$srv->_404();
 	}
 

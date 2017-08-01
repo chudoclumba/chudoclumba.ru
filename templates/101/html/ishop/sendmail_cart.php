@@ -1,6 +1,8 @@
 <? 
 $sss=0;
 foreach($prdout as $key => $zak){
+    $order_sum_for_sale = 0;
+    $order_summ = 0;
 	$st='';
 	$per=$this->db->get(TABLE_TPER,$zak['tp']);
 	$prd=$zak['tov'];
@@ -35,15 +37,24 @@ foreach($prd as $val){
   <td style="border-width:1px;border-style:solid;border-color:#95C12B;padding:0 5px"><?=$val['param_kodtovara']?><br><a style="color:#1C509A;" href="<?=$link?>"><?=$val['name']?></a></td>
   <td style="border-width:1px;border-style:solid;border-color:#95C12B;text-align: right;padding-right: 5px"><?=number_format($val['price'],2)?></td><td style="border-width:1px;border-style:solid;border-color:#95C12B;text-align: center;"><?=$val['cnt']?></td>
   <td style="border-width:1px;border-style:solid;border-color:#95C12B;text-align: right;color:#e51a4b;padding-right: 5px"><?=number_format($val['price']*$val['cnt'],2)?></td></tr>
-<? }
+<?
+
+    $order_summ += $val['price']*$val['cnt'];
+    if(!Site::gI()->isProductForSale($val['prdid']))
+        $order_sum_for_sale += $val['price']*$val['cnt'];
+}
+
 $st='';
 if ($sale>0){ 
 $st=' с учетом скидки';
+
+$disc_summ = (($order_sum_for_sale * $sale) / 100);
+$order_summ -= $disc_summ;
 ?>
 
 <tr><td  style="text-align: right;" colspan="4">Скидка:</td><td style="border-width:1px;border-style:solid;border-color:#95C12B;text-align: right;padding-right:5px"><?=$sale?>%</td></tr><?}?>
  <tr><td style="text-align: right;font-weight: bold;" colspan="4">Сумма<?=$st?>:</td>
- <td style="border-width:1px;border-style:solid;border-color:#95C12B;text-align: right;font-weight:bold;padding-right:5px;color:#e51a4b"><?=number_format($zak['sum'],2)?></td></tr>
+ <td style="border-width:1px;border-style:solid;border-color:#95C12B;text-align: right;font-weight:bold;padding-right:5px;color:#e51a4b"><?=number_format($order_summ,2)?></td></tr>
 </table>
 <?}
 if (count($prdout)>1){?>

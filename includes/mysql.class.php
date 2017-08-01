@@ -32,6 +32,7 @@ class MySQL
 		$this->query_dump[]=array($pnt,'');
 		return true;
 	}
+
 	function connect($db_host, $db_name, $db_user, $db_pass)//PDO
 	{
 		if ($this->link_id == 0)
@@ -92,6 +93,7 @@ class MySQL
 	}
     
 	function get($tbl_name, $id = '-1', $sort = '-1'){//pdo
+
 		if($sort == -1)	{
 			$sort_str = '';
 		} else {
@@ -109,8 +111,12 @@ class MySQL
 				$params = $id;
 				foreach ($params as $id=>$value){
 					$o_name[] = ''.$id.'='.$this->pdo->quote($value);
+                    //echo '<br>', $value;
 				}
 				$o_name_ex = implode(' && ',$o_name);
+
+                //echo '<br>', "select * from ".$tbl_name." where ".$o_name_ex.$sort_str."";
+
 				$res = $this->get_rows("select * from ".$tbl_name." where ".$o_name_ex.$sort_str."");
 			} else {
 				$o_name_ex =  "`id` = ".$this->pdo->quote($id);

@@ -18,7 +18,7 @@ define('SITE_NAME',$_SERVER['HTTP_HOST']);
 define('SITE_URL','https://'.$_SERVER['HTTP_HOST'].CAT_DIR);
 define('MODULES_PATH', 'modules/');
 define('ISHOP_IMAGES', ROOT_DIR.'data/ishop/');
-define('INC_DIR', ROOT_DIR.'includes/');
+define('INC_DIR', ROOT_DIR.'includes/'); // TODO remove
 define('UPLOAD_PRICE_IN_CAT', 1);
 define('ISHOP_PRICE_LIST', 1);
 define('ISHOP_CURRENCY', 1);
@@ -26,6 +26,8 @@ define('EDIT_URL_PAGES', 1);
 define('ISHOP_GALLERY', 0);
 define('USER_SITEMENU', 1);
 define('NEWS_PDP', 0);
+
+define('ROOT_PREF', ' clumba/'); //TODO change to ' /'
 
 ini_set('mysql.connect_timeout', 5);
 

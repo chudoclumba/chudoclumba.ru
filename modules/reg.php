@@ -180,7 +180,10 @@ class User extends Site {
 			);
 			return $content;
 		}
-		if (!$this->is_logged()) $this->_404();
+		if (!$this->is_logged()) {
+            error_log("Call 404 from reg.php: 184");
+            $this->_404();
+        }
 		$v=$this->db->count(TABLE_PODPISKA,array('email'=>$inf['login']));
 		$inf_dop[21]=($v==1 || $v==NULL)?1:0;
 		$inf_dop[16]=$inf['login'];
@@ -400,6 +403,7 @@ if($_GET['module'] == 'user'){
 		}();
 	}
 	else{
+        error_log("Call 404 from reg.php: 406");
 		$reg->_404();
 	}
 

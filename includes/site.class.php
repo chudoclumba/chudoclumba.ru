@@ -1,4 +1,7 @@
 <?php
+
+include_once "mysql.class.php";
+
 class Site{
 	public $db;
 	public $url='';
@@ -27,8 +30,14 @@ class Site{
 	private function __construct(){
 		$this->setVar('db', MySQL::gI());
 	}
+
+    public function __toString() {
+        return "Hello from Site class ";
+    }
+
 	private function __clone(){
 	}
+
 	public function setVar($varName, $value){
 		$this->{$varName} = $value;
 	}
@@ -36,6 +45,43 @@ class Site{
 	public function getVar($varName){
 		return $this->{$varName};
 	}
+
+	public function isProductForSale($productId)
+    {
+        $bRes = false;
+        $q="SELECT param_starayatsena from chudo_ishop_products where id=".$productId;
+        $result = $this->db->get_rows($q);
+        if(!empty($result))
+        {
+            $sprice = $result[0]["param_starayatsena"];
+            if($sprice > 0)
+                $bRes = true;
+        }
+        return $bRes;
+    }
+
+
+    public function getRealOrderSumm($order_id)
+    {
+        $sum = 0;
+        $q = "SELECT p.prd_id, p.count, p.summa, p.skidka FROM ".TABLE_ORDERS_PRD." p WHERE order_id='".$order_id."'";
+        $result = $this->db->get_rows($q);
+        if(!empty($result))
+        {
+            foreach ($result as $row)
+            {
+                $prd_id = $row["prd_id"];
+                $pr_count = $row["count"];
+                $summa = $row["summa"];
+                $p_skidka = $row["skidka"];
+                if(!$this->isProductForSale($prd_id))
+                    $sum += $this->skidka($summa*$pr_count, $p_skidka);
+                else
+                    $sum += $summa*$pr_count;
+            }
+        }
+        return $sum;
+    }
 
 	function txt_url(){
 		$link_p = array(explode('/',  $_GET['q']));
@@ -142,15 +188,18 @@ class Site{
 			return ''.number_format($value,2,'.','').' &#8381;';
 		}
 	}
+
 	function s_price($value, $skidka = 0)
 	{
 		$value = $this->skidka($value,$skidka);
 		return ''.$this->format_price($value).'';
 	}
+
 	function s_price_c($value,$val=0)
 	{
 		return ''.$this->format_price($value,$val).'';
 	}
+
 	function skidka($value, $skidka = 0)
 	{
 		if($this->sets['mod_skidka'])
@@ -321,6 +370,7 @@ class Site{
 		$top_menu .= '</tr></table>';
 		return $top_menu;
 	}
+
 	function left_menuui($id = 0, $level = 0, $pref = '',$tlev = 0){
 		@$rows=$this->menu[$id];
 		$k=0;
@@ -1021,13 +1071,15 @@ class Site{
 	}
 
 	function _404($txt = 'Страница не найдена'){
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location:http://".$_SERVER['HTTP_HOST']);
+        error_log("Fatal in site.class.php:1030");
+	    header("HTTP/1.1 301 Moved Permanently");
+	    header("Location:http://".$_SERVER['HTTP_HOST']);
 		exit;
 	}
 
 	function _403($txt = 'Страница не найдена'){
-	header("HTTP/1.1 301 Moved Permanently");
+        error_log("Fatal in site.class.php:1037");
+	    header("HTTP/1.1 301 Moved Permanently");
 	header("Location:http://".$_SERVER['HTTP_HOST']);
 		exit;
 	}

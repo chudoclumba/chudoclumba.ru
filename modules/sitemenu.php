@@ -326,6 +326,7 @@ class Sitemenu extends Site
 		}
 		elseif($this->content['id'] == $_GET['id'] && empty($this->content['print']) && (!empty($_GET['type']) && $_GET['type'] == 'print'))
 		{
+            error_log("Call 404 from sitemenu.php: 329");
 			$this->_404();
 		}
 	}
@@ -366,20 +367,26 @@ class Sitemenu extends Site
 		{
 			$res = $res['0'];
 			if ($this->sets['cpu']==1 && !(strripos($_SERVER['REQUEST_URI'],'site/'.$this->id)===false) && !empty($res['vlink'])) {
-					header("HTTP/1.1 301 Moved Permanently");
+                error_log("Fatal in sitemenu.php:369");
+			    header("HTTP/1.1 301 Moved Permanently");
 					header("Location:http://".$_SERVER['HTTP_HOST'].'/'.$res['vlink']); 
 					die();
 
 			}
 		}
-		
+
+        /*foreach($res as $key => $value) {
+            echo "$key is at $value", '<br>';
+        }*/
+
 		$enabled = (!empty($res['enabled'])==1)?"1":"0";
 
 		$cnt = '';
 		$html = '';
 
 		if (!$enabled || in_array($res['id'], $this->disabled)) 
-		{ 
+		{
+            error_log("Call 404 from sitemenu.php: 385");
 			$html = $this->_404();
 		}
 		else 
@@ -390,6 +397,7 @@ class Sitemenu extends Site
 		
 		if(count($res) == 0)
 		{
+            error_log("Call 404 from sitemenu.php: 396");
 			$html = $this->_404();
 		}
 	
@@ -423,8 +431,11 @@ if(!empty($_GET['module']) && $_GET['module'] == 'site' && (empty($_GET['type'])
 	$sitemenu->set_id($_GET['id']);
 	$sitemenu->get_content();
 	
-	if(empty($sets['allow_print']) && (!empty($_GET['type']) && $_GET['type'] == 'print')) $sitemenu->_404();
-	
+	if(empty($sets['allow_print']) && (!empty($_GET['type']) && $_GET['type'] == 'print')) {
+        error_log("Call 404 from sitemenu.php: 431");
+        $sitemenu->_404();
+    }
+
 	if(!empty($sets['allow_print'])) $sitemenu->add_print();
 	
 	if(!empty($ebox['id_feedback']))

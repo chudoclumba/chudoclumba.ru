@@ -80,6 +80,7 @@ if(class_exists('News')) echo News::gI()->flinks();
 	}
 	else
 	{
+        error_log("Call 404 from map.php: 83");
 		$sitemap->_404();
 	}
 }

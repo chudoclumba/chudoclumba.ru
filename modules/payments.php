@@ -217,6 +217,7 @@ if ($_GET['module'] == 'pay')
 	}
 	else
 	{
+        error_log("Call 404 from payments.php: 220");
 		$pay->_404();
 	}
 

@@ -5,10 +5,13 @@ define('CART', 'ishop_cart');
 define('COOKIE_CART', 'cart');
 define('RES_CART', 'cartr');
 define('CTIME',Site::gI()->sets['cart_time']);
+
+
 class Cart extends Site
 {
 	public $cart_cnt = 0;
 	public $cart_sum = 0;
+    public $cart_sum_for_sale = 0;
 	public $double_cart = 0;
 	private static $instance;
 	private $cart_info = NULL;
@@ -72,9 +75,10 @@ class Cart extends Site
 				// и есть пользователь - проверяем пользователя
 				if (!$this->load_cart_user_id($_SESSION['user'])) 
 				{
+                    // TODO check empty cart
 					// если корзина не существует - выходим
-					if (isset($_SESSION['cartid'])) $this->clear_cart($_SESSION['cartid']);
-					return;
+					//if (isset($_SESSION['cartid'])) $this->clear_cart($_SESSION['cartid']); // TODO check empty cart
+					//return;
 				}
 				$this->load_cart($_SESSION['cartid']); // загружаем пользовательскую и выходим
 				
@@ -130,13 +134,17 @@ class Cart extends Site
 					$this->load_cart($_SESSION['cartid']);
 					$this->get_cart_info();
 					$kcart=$this->cart_info;
-					unset($_SESSION[CART]);
+                    error_log("Clear CARD from MC:133");
+                   // echo "Clear CARD from MC:133";
+					unset($_SESSION[CART]);  //TODO empty cart
 					if ($this->load_cart_user_id($_SESSION['user'])) $this->load_cart($_SESSION['cartid']);
 					$this->cart_info=NULL;
 					$this->get_cart_info();
 					$pcart=$this->cart_info;
 					unset($_SESSION['cartid']);
-					unset($_SESSION[CART]);
+                    error_log("Clear CARD from MC:141");
+              //      echo "Clear CARD from MC:141";
+					unset($_SESSION[CART]); //TODO empty cart
 					$this->cart_info=NULL;
 					$this->cart_cnt=0;
 					$this->cart_sum=0;
@@ -186,7 +194,9 @@ class Cart extends Site
 
 	public function ResetCart(){
 		if ($this->cdeb) print_r([99]);
-			unset($_SESSION[CART]);
+        error_log("Clear CARD from MC:193");
+      //  echo "Clear CARD from MC:193";
+			unset($_SESSION[CART]); //TODO empty cart
 			unset($_SESSION['cartid']);
 			unset($_SESSION['use_user']);
 			$this->cart_info=NULL;
@@ -201,6 +211,7 @@ class Cart extends Site
 		if (!(count($result) > 0)) return FALSE;
 		return $result[0]['userid'];
 	}
+
 	private function load_cart_user_id($userid)  // получает ид корзины пользователя, ложь если не существует
 	{
 		$result = $this->db->get(TABLE_CART, array('userid'=>trim($userid)));
@@ -237,6 +248,7 @@ class Cart extends Site
 		if ($us==0) setcookie(NEW_CART,$id,time()+60*60*24*CTIME,'/');
 		return $id;
 	}
+
 	private function write_cart($cartid)
 	{
 		if ( !($cartid>'  ') ) return false;
@@ -247,6 +259,7 @@ class Cart extends Site
 			if ($param['count']>0) $this->db->insert(TABLE_CART_DET, array('cartid'=>$cartid, 'prdid'=> $id, 'cnt'=>$param['count']));
 		}
 	}
+
 	private function load_cart($cartid)
 	{
 		if (!isset($_SESSION[CART]))
@@ -257,6 +270,7 @@ class Cart extends Site
 		}
 		return (isset($_SESSION[CART]));
 	}
+
 	public function addprd($prd_id,$tv=0)
 	{ 	
 		if (!isset($_SESSION['cartid']) )
@@ -276,12 +290,15 @@ class Cart extends Site
 		$this->get_cart_info();
 		return TRUE;
 	}
+
 	public function upd_cart_prd($cartid,$id,$val)
 	{	
 		$_SESSION[CART][$id]['count'] = $val;
 		if ($val==0){
 			$res=$this->db->exec("delete from ".TABLE_CART_DET." where cartid='".trim($cartid)."' and prdid=".$id);
-			unset($_SESSION[CART][$id]);
+            error_log("Clear CARD from MC:295");
+        //    echo "Clear CARD from MC:295";
+			unset($_SESSION[CART][$id]); //TODO empty cart
 			return $res;
 		}
 		$result = $this->db->get(TABLE_CART_DET, array('cartid'=>trim($cartid),'prdid'=>$id));
@@ -289,6 +306,7 @@ class Cart extends Site
 		else $res=$this->db->insert(TABLE_CART_DET, array('cartid'=>trim($cartid),'prdid'=>$id,'cnt'=>$val));
 		return $res;
 	}
+
 	public function update_cart()
 	{	
 		if (!empty($_POST['count']))
@@ -301,6 +319,7 @@ class Cart extends Site
 		$this->cart_info=NULL;
 		$this->get_cart_info();
 	}
+
 	public function setcnt(){
 		$prd_cnt=(isset($_GET['params'][0]))?(int)$_GET['params'][0]:1;
 		$prd_id=(isset($_GET['id']))?(int)$_GET['id']:0;
@@ -325,14 +344,14 @@ class Cart extends Site
 			if ($_SESSION['user']>0) $sale=User::gI()->user['sale'];
 			if ($orders['0']['percent']>$sale) $sale=$orders['0']['percent'];
 		}
-		$skidka = (!empty($sale)) ? ($this->cart_sum*$sale)/100 : 0;
+		$skidka = (!empty($sale)) ? ($this->cart_sum_for_sale*$sale)/100 : 0;
 		$psum=$this->cart_info[$prd_id]['cnt']*$this->cart_info[$prd_id]['price'];
 		if (!($res===false)) die(json_encode(array('res'=>1,'cnt'=>$prd_cnt,'psum'=>number_format($psum,2,'.','').' &#8381;','sum'=>number_format($this->cart_sum,2,'.','').' &#8381;','sale'=>number_format($skidka,2,'.','').' &#8381;','asum'=>number_format($this->cart_sum-$skidka,2,'.','').' &#8381;','cart'=>$this->cart())));
 		
 		die(json_encode(array('res'=>0)));
 	}
 
-	public function removeprd(){
+	public function removeprd(){  // TODO изменить скидку заказа
 		$prd_id=(isset($_GET['id']))?(int)$_GET['id']:0;
 		if ($prd_id==0) die(json_encode(array('res'=>0)));
 		if (!isset($_SESSION['cartid'])){
@@ -351,14 +370,17 @@ class Cart extends Site
 			if ($_SESSION['user']>0) $sale=User::gI()->user['sale'];
 			if ($orders['0']['percent']>$sale) $sale=$orders['0']['percent'];
 		}
-		$skidka = (!empty($sale)) ? ($this->cart_sum*$sale)/100 : 0;
+		$skidka = (!empty($sale)) ? ($this->cart_sum_for_sale*$sale)/100 : 0;
 		if (!($res===false)) die(json_encode(array('res'=>1,'sum'=>number_format($this->cart_sum,2,'.','').' &#8381;','sale'=>number_format($skidka,2,'.','').' &#8381;','asum'=>number_format($this->cart_sum-$skidka,2,'.','').' &#8381;','cart'=>$this->cart())));
 		die(json_encode(array('res'=>0)));
 	}
+
 	public function clear_cart()
 	{
 		$unsc=false;
-		unset($_SESSION[CART]);
+        error_log("Clear CARD from MC:377");
+       // echo "Clear CARD from MC:377";
+		unset($_SESSION[CART]); //TODO empty cart
 		if (isset($_SESSION['cartid']) && trim($_SESSION['cartid'])>' ')
 			if (isset($_SESSION['user']) && $_SESSION['user']>0){
 				$this->db->exec("delete from ".TABLE_CART_DET." where cartid='".trim($_SESSION['cartid'])."'");
@@ -374,11 +396,13 @@ class Cart extends Site
 		$this->cart_cnt=0;
 		return $unsc;
 	}
-	public function get_cart_info()
+
+	public function get_cart_info() //TODO Скидки
 	{
 		if($this->cart_info == null)
 		{
 			$sum=0;
+			$sum_for_sale = 0;
 			$cnt=0;
 			$prd = NULL;
 			if(array_key_exists(CART, $_SESSION) && count($_SESSION[CART]) > 0)
@@ -411,17 +435,24 @@ class Cart extends Site
 					$prd[$row['id']]['price'] =$row['tsena'] - (0.01 * $row['skidka'] * $row['tsena']);
 					$prd[$row['id']]['param_srokpostavki'] = $row['pername'];
 					$prd[$row['id']]['dt'] = $row['dt'];
-					if ($row['enabled'] && $row['visible']) $sum+=($row['tsena'] - (0.01 * $row['skidka'] * $row['tsena']))*$_SESSION[CART][$row['id']]['count'];
+					if ($row['enabled'] && $row['visible']) {
+					    if(!Site::gI()->isProductForSale($row['id']))
+                        {
+                            $sum_for_sale += ($row['tsena'])*$_SESSION[CART][$row['id']]['count'];
+                        }
+					    $sum+=($row['tsena'] - (0.01 * $row['skidka'] * $row['tsena']))*$_SESSION[CART][$row['id']]['count'];
+                    }
 				}
 			}
 			$this->cart_cnt=$cnt;
 			$this->cart_sum=$sum;
+			$this->cart_sum_for_sale = $sum_for_sale;
 			$this->cart_info = $prd;
 			return $prd;
 		}
 		return $this->cart_info;
 	}
-	public function get_cart_ord()
+	public function get_cart_ord() //TODO Скидки
 	{
 		$periods=array();
 		$sum=0;
@@ -511,7 +542,10 @@ if ($_GET['module'] == 'cart')
 	}
 	else
 	{
-		if (empty($content)) $cart->_404();
+		if (empty($content)) {
+            error_log("Call 404 from MyCart.php: 515");
+		    $cart->_404();
+        }
 	}
 
 }

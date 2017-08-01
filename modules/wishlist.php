@@ -269,6 +269,7 @@ if ($_GET['module'] == 'wishlist')
 	else
 	{
 //		print_r($_GET);
+        error_log("Call 404 from wishlist.php: 279");
 		$wish->_404();
 	}
 
