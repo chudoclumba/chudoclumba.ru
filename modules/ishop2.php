@@ -1,4 +1,8 @@
 ﻿<?php
+
+include INC_DIR.'Logger.php';
+include INC_DIR.'PromoEngine.php';
+
 if(!class_exists('Site')) die(include '../404.html');
 class Ishop extends Site{
 	private $dop_par = array('mat_id', 'color_id');
@@ -857,7 +861,63 @@ class Ishop extends Site{
 				break;
 			}
 			case 'cart' :  // корзина
-			{	
+			{
+                //if(!count($_POST) > 0) { //TODO get promo code
+                 //   $message = "POST IS FULL";
+                    //echo "<script type='text/javascript'>alert('$message');</script>";
+                 //   Logger::Info($message);
+                 //   Logger::InfoKeyValue($_POST);
+                 //   if(isset($_POST["promo"]))
+                 //   {
+                  //      $message = "PROMO FORM IS HERE";
+                        //echo "<script type='text/javascript'>alert('$message');</script>";
+                   //     Logger::Info($message);
+                   //     if(!empty($_POST["promo"]))
+                   //     {
+                            if(isset($_POST["rabatt"]))
+                            {
+                                $message = "PROMO FIELD IS HERE";
+                                Logger::Info($message);
+                              //  echo "<script type='text/javascript'>alert('$message');</script>";
+                                if(!empty($_POST["rabatt"]))
+                                {
+                                    $message = "PROMO CODE IS: ".$_POST["rabatt"];
+                                    Logger::Info($message);
+                                    $promo = PromoEngine::Instance()->getPromoByCode($_POST["rabatt"]);
+                                    Logger::Info("TEST");
+                                    if(isset($promo))
+                                    {
+                                        $_SESSION["currentPromo"] = $promo;
+                                        if(isset($_SESSION["currentPromo"]))
+                                        {
+                                            Logger::Info("Promo saved in session");
+                                        }
+                                    }
+                                //    echo "<script type='text/javascript'>alert('$message');</script>";
+                                }
+                            }
+                            else
+                            {
+                                $message = "FAILED TO GET PROMO FIELD";
+                                Logger::Info($message);
+                               // echo "<script type='text/javascript'>alert('$message');</script>";
+                            }
+                      //  }
+                 //   }
+                  //  else
+                  //  {
+                  //      $message = "FAILED TO GET PROMO FORM";
+                  //      Logger::Info($message);
+                       // echo "<script type='text/javascript'>alert('$message');</script>";
+                  //  }
+
+               // }
+              //  else
+               // {
+               //     $message = "POST IS EMPTY";
+                    //echo "<script type='text/javascript'>alert('$message');</script>";
+               //     Logger::Info($message);
+               // }
 				if(empty($_SESSION[CART])) {
                     error_log("Clear CARD from IS:861");
                   //  echo "Clear CARD from IS:861";

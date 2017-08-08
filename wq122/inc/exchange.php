@@ -678,14 +678,18 @@ function getzak()
         {
             $skidka_prd = $row['skidka'];
             $summa_prd = $row['summa'];
-            $skidka_sum += $skidka_prd;
+
+            $skd = (($summa_prd * $row['count']*$skidka_prd) / 100);
+            $skidka_sum += $skd;
+            $order_sum += ($summa_prd * $row['count']) - $skd;
         }
         else
         {
             $skidka_prd = 0;
             $summa_prd = $row['summa'];
+            $order_sum += $summa_prd * $row['count'];
         }
-        $order_sum += $summa_prd * $row['count'];
+
 		$tcont1.="ID;{$row['prd_id']};{$row['param_kodtovara']};{$row['name']};";
 		$tcont1.="{$row['summa']};{$row['count']};{$row['todel']};{$skidka_prd};\n";
 	}

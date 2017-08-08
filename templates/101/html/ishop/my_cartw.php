@@ -118,12 +118,13 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                     <form action="ishop/cart" method="post" id="promo">
                                         <label>Если у Вас есть промо-код, введите его </label>
                                         <div class="input-box">
-                                            <input type="text" value="" name="rabatt" class="inputbox">
+                                            <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
                                         </div>
                                         <div class="coupon_submit">
                                             <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
                                                 <span>Применить код</span>
                                             </a>
+<!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
                                         </div>
                                     </form>
                                 </div>

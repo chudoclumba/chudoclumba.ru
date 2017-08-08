@@ -75,3 +75,6 @@ define('TABLE_TPER',			TABLE_PREFIX.'per_post');
 define('TABLE_ORDERSI_PRD',			TABLE_PREFIX.'ishop_order_idet');
 define('TABLE_ORDERS_REG',			TABLE_PREFIX.'i_update');
 define('TABLE_ORDERS_LOG',			TABLE_PREFIX.'i_log');
+
+define('TABLE_PROMO',			TABLE_PREFIX.'ishop_promo');
+define('TABLE_USER_PROMO',			TABLE_PREFIX.'ishop_user_promo');
