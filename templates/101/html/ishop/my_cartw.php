@@ -113,21 +113,124 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="single-dis">
                             <div class="discount">
-                                <h2>Коды скидок</h2>
-                                <div class="discount-form">
-                                    <form action="ishop/cart" method="post" id="promo">
-                                        <label>Если у Вас есть промо-код, введите его </label>
-                                        <div class="input-box">
-                                            <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
+                                <? if (isset($_SESSION['user'])){
+                                    $promo = PromoEngine::Instance()->getPromoAssignedToUser($_SESSION['user']);
+                                    if(isset($promo))
+                                    {
+                                        ?>
+                                        <div class="discount-form">
+                                            <h2>Вы успешно применили промо код: <?$promo->setPromoCode()?></h2>
                                         </div>
-                                        <div class="coupon_submit">
-                                            <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
-                                                <span>Применить код</span>
-                                            </a>
-<!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
+                                <?
+                                    }
+                                    else
+                                    {
+                                        ?>
+                                        <h2>Коды скидок</h2>
+                                        <div class="discount-form">
+                                            <form action="ishop/cart" method="post" id="promo">
+                                                <label>Если у Вас есть промо-код, введите его </label>
+                                                <div class="input-box">
+                                                    <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
+                                                </div>
+                                                <div class="coupon_submit">
+                                                    <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
+                                                        <span>Применить код</span>
+                                                    </a>
+                                                    <!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
+                                                </div>
+                                            </form>
                                         </div>
-                                    </form>
-                                </div>
+                                <?
+                                    }
+                                }
+                                else
+                                {
+                                    if(!isset($_SESSION["promoError"]))
+                                    {
+                                        if(isset($_SESSION["currentPromo"]))
+                                        {
+                                            $promo = $_SESSION["currentPromo"];
+                                            ?>
+                                            <h2>Коды скидок</h2>
+                                            <div class="discount-form">
+                                                <form action="ishop/cart" method="post" id="promo">
+                                                    <label>Вы успешно примеили промо код </label>
+                                                    <div class="input-box">
+                                                        <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
+                                                    </div>
+                                                    <div class="coupon_submit">
+                                                        <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
+                                                            <span>Применить код</span>
+                                                        </a>
+                                                        <!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <?
+                                        }
+                                        else
+                                        {
+                                            ?>
+                                            <h2>Коды скидок</h2>
+                                            <div class="discount-form">
+                                                <form action="ishop/cart" method="post" id="promo">
+                                                    <label>Если у Вас есть промо-код, введите его </label>
+                                                    <div class="input-box">
+                                                        <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
+                                                    </div>
+                                                    <div class="coupon_submit">
+                                                        <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
+                                                            <span>Применить код</span>
+                                                        </a>
+                                                        <!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <?
+                                        }
+                                    }
+                                    else
+                                    {
+                                        ?>
+                                        <h2>Коды скидок</h2>
+                                        <h2><?$_SESSION["promoError"]?></h2>
+                                        <div class="discount-form">
+                                            <form action="ishop/cart" method="post" id="promo">
+                                                <label>Если у Вас есть промо-код, введите его </label>
+                                                <div class="input-box">
+                                                    <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
+                                                </div>
+                                                <div class="coupon_submit">
+                                                    <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
+                                                        <span>Применить код</span>
+                                                    </a>
+                                                    <!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <?
+                                    }
+                                    ?>
+                                    <h2>Коды скидок</h2>
+                                    <div class="discount-form">
+                                        <form action="ishop/cart" method="post" id="promo">
+                                            <label>Если у Вас есть промо-код, введите его </label>
+                                            <div class="input-box">
+                                                <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
+                                            </div>
+                                            <div class="coupon_submit">
+                                                <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
+                                                    <span>Применить код</span>
+                                                </a>
+                                                <!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
+                                            </div>
+                                        </form>
+                                    </div>
+                                <?
+                                }
+                                ?>
+
                             </div>
                         </div>
                     </div>

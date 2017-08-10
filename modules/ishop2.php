@@ -876,6 +876,7 @@ class Ishop extends Site{
                    //     {
                             if(isset($_POST["rabatt"]))
                             {
+                                $_SESSION["promoError"] = null;
                                 $message = "PROMO FIELD IS HERE";
                                 Logger::Info($message);
                               //  echo "<script type='text/javascript'>alert('$message');</script>";
@@ -883,16 +884,40 @@ class Ishop extends Site{
                                 {
                                     $message = "PROMO CODE IS: ".$_POST["rabatt"];
                                     Logger::Info($message);
-                                    $promo = PromoEngine::Instance()->getPromoByCode($_POST["rabatt"]);
-                                    Logger::Info("TEST");
-                                    if(isset($promo))
+                                    $_SESSION["promoError"] = null;
+                                    if(PromoEngine::Instance()->isValidPromoCode($_POST["rabatt"]))
                                     {
-                                        $_SESSION["currentPromo"] = $promo;
-                                        if(isset($_SESSION["currentPromo"]))
+                                        Logger::Info("Promo code ".$_POST["rabatt"]." is valid");
+                                        $promo = PromoEngine::Instance()->getPromoByCode($_POST["rabatt"]);
+                                        if(isset($promo))
                                         {
-                                            Logger::Info("Promo saved in session");
+                                            if (isset($_SESSION['user']))
+                                            {
+                                                PromoEngine::Instance()->assignPromoToUser($_SESSION['user'], $promo->getPromoCode());
+                                                Logger::Info("Promo has been assigned to user");
+                                                $_SESSION["promoError"] = null;
+                                            }
+                                            else
+                                            {
+                                                $_SESSION["currentPromo"] = $promo;
+                                                if(isset($_SESSION["currentPromo"]))
+                                                {
+                                                    Logger::Info("Promo saved in session");
+                                                    $_SESSION["promoError"] = null;
+                                                }
+                                                else
+                                                {
+                                                    $_SESSION["promoError"] = "Ошибка сохранения кода";
+                                                }
+                                            }
                                         }
                                     }
+                                    else
+                                    {
+                                        $_SESSION["promoError"] = "Введен неверный промо код";
+                                        Logger::Info("Promo code ".$_POST["rabatt"]." is invalid");
+                                    }
+
                                 //    echo "<script type='text/javascript'>alert('$message');</script>";
                                 }
                             }

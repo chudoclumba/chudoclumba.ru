@@ -22,15 +22,10 @@ class Promo
      */
     public function __construct()
     {
-        Logger::Info("Constructor enter");
         $this->promo_id = 0;
-        Logger::Info("1");
         $this->promo_code = '';
-        Logger::Info("2");
         $this->expirationdate = new DateTime();
-        Logger::Info("3");
         $this->value = 0;
-        Logger::Info("Constructor leave");
     }
 
     /**

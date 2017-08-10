@@ -270,6 +270,7 @@ class MySQL
 		}
 		return $res;
 	}
+
 	function exec($query)//pdo
 	{
 		if (defined('SQLLOG'))
