@@ -1,9 +1,9 @@
 ﻿<?php
 
-include INC_DIR.'Logger.php';
-include INC_DIR.'PromoEngine.php';
+
 
 if(!class_exists('Site')) die(include '../404.html');
+
 class Ishop extends Site{
 	private $dop_par = array('mat_id', 'color_id');
 	private $curr_cat_id = -1;
@@ -862,6 +862,13 @@ class Ishop extends Site{
 			}
 			case 'cart' :  // корзина
 			{
+			    if(isset($_SESSION["currentPromoCode"]) && $_SESSION["currentPromoCode"] != null)
+                {
+                    if (isset($_SESSION['user']) && $_SESSION['user'] != null)
+                    {
+                        PromoEngine::Instance()->checkPromoForUser($_SESSION['user']);
+                    }
+                }
                 //if(!count($_POST) > 0) { //TODO get promo code
                  //   $message = "POST IS FULL";
                     //echo "<script type='text/javascript'>alert('$message');</script>";
@@ -889,17 +896,19 @@ class Ishop extends Site{
                                     {
                                         Logger::Info("Promo code ".$_POST["rabatt"]." is valid");
                                         $promo = PromoEngine::Instance()->getPromoByCode($_POST["rabatt"]);
-                                        if(isset($promo))
+                                        if(isset($promo) && $promo != null)
                                         {
                                             if (isset($_SESSION['user']))
                                             {
-                                                PromoEngine::Instance()->assignPromoToUser($_SESSION['user'], $promo->getPromoCode());
-                                                Logger::Info("Promo has been assigned to user");
-                                                $_SESSION["promoError"] = null;
+                                                $_SESSION["currentPromo"] = $promo;
+                                                $_SESSION["currentPromoCode"] = $promo->getPromoCode();
+                                                PromoEngine::Instance()->checkPromoForUser($_SESSION['user']);
                                             }
                                             else
                                             {
+
                                                 $_SESSION["currentPromo"] = $promo;
+                                                $_SESSION["currentPromoCode"] = $promo->getPromoCode();
                                                 if(isset($_SESSION["currentPromo"]))
                                                 {
                                                     Logger::Info("Promo saved in session");
@@ -1272,6 +1281,10 @@ class Ishop extends Site{
 							}
 							if ($_SESSION['user']>0) $sale=User::gI()->user['sale'];
 							if ($orders['0']['percent']>$sale) $sale=$orders['0']['percent'];
+
+                            $promoValue = PromoEngine::Instance()->getPromoValueAssignedToUser($_SESSION['user']);
+                            $sale += $promoValue;
+
 							$summacn=$summa - ($summa*$orders['0']['percent'])/100;
 
 						}

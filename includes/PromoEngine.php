@@ -144,7 +144,7 @@ class PromoEngine
         $promo = $this->getPromoByCode($promoCode);
         if(isset($promo))
         {
-            $query = "INSERT INTO " . TABLE_USER_PROMO . " (user_id, promo_id, expired) VALUES (".$userId.", ".$promo->getPromoId().", false";
+            $query = "INSERT INTO " . TABLE_USER_PROMO . " (user_id, promo_id, expired) VALUES (".$userId.", ".$promo->getPromoId().", false)";
             $this->db->query($query);
         }
     }
@@ -163,6 +163,15 @@ class PromoEngine
         return $pRes;
     }
 
+    public function getPromoValueAssignedToUser($userId)
+    {
+        $vRes = 0;
+        $promo = $this->getPromoAssignedToUser($userId);
+        if(isset($promo) && $promo != null)
+            $vRes = $promo->getValue();
+        return $vRes;
+    }
+
     public function isPromoAssignedToUser($userId, $promoCode)
     {
         $bRes = false;
@@ -175,5 +184,68 @@ class PromoEngine
                 $bRes=true;
         }
         return $bRes;
+    }
+
+    public function checkPromoForUser($user)
+    {
+        Logger::Info("PromoEngine::checkPromoForUser. ENTER");
+        $promo = $this->getPromoAssignedToUser($user);
+        if(isset($promo) && $promo != null)
+        {
+            Logger::Info("PromoEngine::checkPromoForUser. User already has promocode assigned");
+            $_SESSION["promoError"] = null;
+            $_SESSION["currentPromo"] = $promo;
+            $_SESSION["currentPromoCode"] = $promo->getPromoCode();
+        }
+        else
+        {
+            if(isset($_SESSION["currentPromoCode"]) && $_SESSION["currentPromoCode"] != null)
+            {
+                if($this->isValidPromoCode($_SESSION["currentPromoCode"]))
+                {
+                    $promo = $this->getPromoByCode($_SESSION["currentPromoCode"]);
+                    if(isset($promo) && $promo !=null)
+                    {
+                        Logger::Info("PromoEngine::checkPromoForUser. Got valid unnamed promo code. Trying to assign it onto user");
+                        $this->assignPromoToUser($user, $_SESSION["currentPromoCode"]);
+                        $testPromo = $this->getPromoAssignedToUser($user);
+                        if(isset($testPromo) && $testPromo != null)
+                        {
+                            Logger::Info("PromoEngine::checkPromoForUser. Promo has been assigned to user");
+                            $_SESSION["promoError"] = null;
+                            $_SESSION["currentPromo"] = $testPromo;
+                            $_SESSION["currentPromoCode"] = $testPromo->getPromoCode();
+                        }
+                        else
+                        {
+                            Logger::Info("PromoEngine::checkPromoForUser. Failed to assign promo code onto user");
+                            $_SESSION["currentPromo"] = null;
+                            $_SESSION["currentPromoCode"] = null;
+                            $_SESSION["promoError"] = null;
+                        }
+                    }
+                }
+                else
+                {
+                    Logger::Info("PromoEngine::checkPromoForUser. Invalid unnamed promo code");
+                    $_SESSION["currentPromo"] = null;
+                    $_SESSION["currentPromoCode"] = null;
+                    $_SESSION["promoError"] = null;
+                }
+            }
+            else
+            {
+                Logger::Info("PromoEngine::checkPromoForUser. Failed to get unnamed promo code");
+                $_SESSION["currentPromo"] = null;
+                $_SESSION["currentPromoCode"] = null;
+                $_SESSION["promoError"] = null;
+            }
+        }
+        Logger::Info("PromoEngine::checkPromoForUser. LEAVE");
+    }
+
+    public function test()
+    {
+
     }
 }

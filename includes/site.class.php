@@ -1,6 +1,8 @@
 <?php
 
 include_once "mysql.class.php";
+include_once 'Logger.php';
+include_once 'PromoEngine.php';
 
 class Site{
 	public $db;
@@ -74,6 +76,13 @@ class Site{
                 $pr_count = $row["count"];
                 $summa = $row["summa"];
                 $p_skidka = $row["skidka"];
+
+                if (isset($_SESSION['user']) && $_SESSION['user'] != null)
+                {
+                    $promoValue = PromoEngine::Instance()->getPromoValueAssignedToUser($_SESSION['user']);
+                    $p_skidka += $promoValue;
+                }
+
                 if(!$this->isProductForSale($prd_id))
                     $sum += $this->skidka($summa*$pr_count, $p_skidka);
                 else

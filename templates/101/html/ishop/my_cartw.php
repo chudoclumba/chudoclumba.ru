@@ -113,18 +113,19 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="single-dis">
                             <div class="discount">
-                                <? if (isset($_SESSION['user'])){
+                                <? if (isset($_SESSION['user']) && $_SESSION['user'] != null){
                                     $promo = PromoEngine::Instance()->getPromoAssignedToUser($_SESSION['user']);
                                     if(isset($promo))
                                     {
                                         ?>
                                         <div class="discount-form">
-                                            <h2>Вы успешно применили промо код: <?$promo->setPromoCode()?></h2>
+                                            <h2>Вы успешно применили промо код: <?php echo $_SESSION["currentPromoCode"];?></h2>
                                         </div>
                                 <?
                                     }
                                     else
                                     {
+                                        Logger::Info("CASE 1");
                                         ?>
                                         <h2>Коды скидок</h2>
                                         <div class="discount-form">
@@ -148,15 +149,20 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                 {
                                     if(!isset($_SESSION["promoError"]))
                                     {
-                                        if(isset($_SESSION["currentPromo"]))
+                                        if(isset($_SESSION["currentPromo"]) && $_SESSION["currentPromo"] != null)
                                         {
+
                                             $promo = $_SESSION["currentPromo"];
+                                            $promoCode = $_SESSION["currentPromoCode"];//$promo->getPromoCode();
+                                            Logger::Info("CASE 2");
                                             ?>
                                             <h2>Коды скидок</h2>
                                             <div class="discount-form">
                                                 <form action="ishop/cart" method="post" id="promo">
-                                                    <label>Вы успешно примеили промо код </label>
-                                                    <div class="input-box">
+                                                    <label>
+                                                        Вы успешно применили промо код: <?php echo $_SESSION["currentPromoCode"]; ?>
+                                                    </label>
+                                                    <!--<div class="input-box">
                                                         <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
                                                     </div>
                                                     <div class="coupon_submit">
@@ -164,13 +170,14 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                                             <span>Применить код</span>
                                                         </a>
                                                         <!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
-                                                    </div>
+<!--                                                    </div>-->
                                                 </form>
                                             </div>
                                             <?
                                         }
                                         else
                                         {
+                                            Logger::Info("CASE 3");
                                             ?>
                                             <h2>Коды скидок</h2>
                                             <div class="discount-form">
@@ -192,12 +199,13 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                     }
                                     else
                                     {
+                                        Logger::Info("CASE 4");
                                         ?>
                                         <h2>Коды скидок</h2>
                                         <h2><?$_SESSION["promoError"]?></h2>
                                         <div class="discount-form">
                                             <form action="ishop/cart" method="post" id="promo">
-                                                <label>Если у Вас есть промо-код, введите его </label>
+                                                <label><?php echo $_SESSION["promoError"];?> </label>
                                                 <div class="input-box">
                                                     <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
                                                 </div>
@@ -211,23 +219,6 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                         </div>
                                         <?
                                     }
-                                    ?>
-                                    <h2>Коды скидок</h2>
-                                    <div class="discount-form">
-                                        <form action="ishop/cart" method="post" id="promo">
-                                            <label>Если у Вас есть промо-код, введите его </label>
-                                            <div class="input-box">
-                                                <input type="text" value="" id="rabatt" name="rabatt" class="inputbox">
-                                            </div>
-                                            <div class="coupon_submit">
-                                                <a class="button c_button" href="" onClick="document.getElementById('promo').submit(); return false;">
-                                                    <span>Применить код</span>
-                                                </a>
-                                                <!--                                            <button type="submit" class="button c_button" title="Применить код" />-->
-                                            </div>
-                                        </form>
-                                    </div>
-                                <?
                                 }
                                 ?>
 
@@ -246,7 +237,26 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                             <span class="s-price sum"><?=$this->s_price_c($sum)?></span>
                                         </td>
                                     </tr>
-<?if ($sale>0) { ?> 
+<?
+if(isset($_SESSION["currentPromoCode"]) && $_SESSION["currentPromoCode"] != null)
+{
+    if (isset($_SESSION['user']) && $_SESSION['user'] != null)
+    {
+        $promoValue = PromoEngine::Instance()->getPromoValueAssignedToUser($_SESSION['user']);
+        $sale += $promoValue;
+    }
+}
+else
+{
+    if (isset($_SESSION['user']) && $_SESSION['user'] != null)
+    {
+        $promoValue = PromoEngine::Instance()->getPromoValueAssignedToUser($_SESSION['user']);
+        $sale += $promoValue;
+    }
+}
+if ($sale>0) {
+
+    ?>
                                     <tr>
                                         <td class="s-total">
                                             Скидка

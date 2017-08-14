@@ -1,6 +1,7 @@
 <?php
 if(!class_exists('Site')) die(include '../404.html');
 
+
 class User extends Site {
 	public $msg ='';
 	public $user = array();
@@ -25,6 +26,7 @@ class User extends Site {
 		}
 		if(!empty($_SESSION['user'])) $this->logon();
 	}
+
 	private function read_info($id){
 		$usrs = $this->db->get_rows("SELECT u.id, u.login, u.pass, u.datep, u.info, sum(f.sumin)-sum(f.sumout) as balans,u.sale FROM ".TABLE_USERS." u , ".TABLE_ORDERS_FIN." f where f.uid=u.id and  u.id=".$this->db->escape_string($id));
 		if (count($usrs)>0) $usrs=$usrs[0]; else $usrs=array();
@@ -37,6 +39,7 @@ class User extends Site {
 			$_SESSION['userinf']['datep']=$this->user['datep'];
 		}
 	}
+
 	public function logon(){
 		global $gmess;
 		$gmess.='-logon-';
@@ -55,8 +58,10 @@ class User extends Site {
 		if (count($res)>0) $this->user_role=$res['role'];
 		unset($_SESSION['tpr']);
 	}
+
 	private function __clone(){
 	}
+
 	function mesage(){
 		if(isset($_SESSION['tpr'])){
 			$r=$_SESSION['tpr'];
@@ -357,6 +362,7 @@ $cnt=$this->view('feedback/feedback_new',array('form_data'=>$data,'txt_data'=>$i
 	}
 	
 	function a_login($inp=1){	// ***********************************  a_login()  ******************************
+
 		$res=array('res'=>0);
 		if(!empty($_POST['login']) && !empty($_POST['pass'])){
 			$usrs = $this->db->get(TABLE_USERS, array('login'=>$_POST['login'], 'pass'=>$_POST['pass']));
@@ -370,6 +376,21 @@ $cnt=$this->view('feedback/feedback_new',array('form_data'=>$data,'txt_data'=>$i
 					$file = ROOT_DIR.'modules/'.$modules['cart'].'.php';
 					if (file_exists($file))	require_once($file);
 					$res=array('res'=>1,'user'=>User::gI()->form(),'cbtn'=>Cart::gI()->cart());
+
+					//$promoEngine = new PromoEngine();
+					//$promoEngine->checkPromoForUser($_SESSION['user']);
+					$ins = PromoEngine::Instance();
+
+					/*try
+                    {
+                      //  Logger::Info("Something strange");
+                     //   PromoEngine::Instance()->checkPromoForUser($_SESSION['user']);
+                    }
+                    catch (Exception $exception)
+                    {
+                        Logger::Info("505 error: ".$exception->getMessage());
+                    }*/
+					//PromoEngine::Instance()->checkPromoForUser($_SESSION['user']);
 				} 
 			}
 			elseif( isset($usrs[0]) && $usrs[0]['block']>0){
