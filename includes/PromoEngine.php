@@ -159,6 +159,11 @@ class PromoEngine
         {
             $promoId = $rows[0]["promo_id"];
             $pRes = $this->getPromoById($promoId);
+            if(!$this->isValidPromoCode($pRes->getPromoCode()))
+            {
+                $this->resetAssigneeForPromoCode($pRes->getPromoCode());
+                $pRes = null;
+            }
         }
         return $pRes;
     }

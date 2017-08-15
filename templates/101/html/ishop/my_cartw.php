@@ -238,18 +238,21 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                         </td>
                                     </tr>
 <?
+Logger::Info("SALE1 = ".$sale);
 if(isset($_SESSION["currentPromoCode"]) && $_SESSION["currentPromoCode"] != null)
 {
     if (isset($_SESSION['user']) && $_SESSION['user'] != null)
     {
         $promoValue = PromoEngine::Instance()->getPromoValueAssignedToUser($_SESSION['user']);
         $sale += $promoValue;
+        Logger::Info("SALE2 = ".$sale);
     }
 }
 else
 {
     if (isset($_SESSION['user']) && $_SESSION['user'] != null)
     {
+        Logger::Info("SALE3 = ".$sale);
         $promoValue = PromoEngine::Instance()->getPromoValueAssignedToUser($_SESSION['user']);
         $sale += $promoValue;
     }
