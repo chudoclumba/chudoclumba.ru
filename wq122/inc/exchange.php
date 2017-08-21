@@ -58,7 +58,7 @@ function send_ordrep()
  	$rows = $db->get_rows("SELECT * FROM ".TABLE_ORDERS." where  id=".$db->escape_string($ord));
  	if (!(count($rows)>0)) return "Error Заказ не найден\n";
  //	$rows = $db->get_rows("SELECT * FROM ".TABLE_PRODUCTS." where  id=".$ord);
-  	$body="<p>Здравствуйте!</p><p>Вы делали заказ в нашем интернет магазине «Чудо-клумба» № {$ord} на Весну 2017 года.</p>
+  	$body="<p>Здравствуйте!</p><p>Вы делали заказ в нашем интернет магазине «Чудо-клумба» № {$ord}.</p>
  	<p>На настоящий момент Ваш заказ собран и готов к отправлению в следующей комплектации:</p>";
  	ob_start();
  ?>
@@ -93,17 +93,13 @@ function send_ordrep()
 	ob_end_clean();
 	$keylink=SITE_URL."service/receive/{$ord}/".md5("receive".$ord).'?utm_source=email_transaction&utm_medium=email&utm_campaign=orderconfirm';
 	$keylink1=SITE_URL."service/receive/{$ord}/".md5("decline".$ord).'?utm_source=email_transaction&utm_medium=email&utm_campaign=orderdecline';
- 	$body.="<p>Для доставки заказа в текущем составе по адресу: {$adress}, <b>нажмите на кнопку:</b></p>
+ 	$body.="<p><b>Для доставки заказа</b> в текущем составе по адресу: {$adress}, <b>нажмите на кнопку:</b></p>
 	
 	<a href=\"{$keylink}\"><img src=\"".SITE_URL."templates/101/images/mail_key_ok.jpg\" alt=\"Подтвердить заказ!\" width=\"213\" height=\"41\" /></a>
 	
-	<h1><span style=\"color: #ff0000;\"><strong>Специальное предложение!</strong></span></h1>
-	<p>Если Вы хотите произвести замену недопоставленного растения или дополнить свой заказ, в течение трех дней после подтверждения Вами готовности получения заказа, <span style=\"color: #ff0000;\"><strong>оформите новый заказ</strong></span> на любые растения со статусом «в наличии на складе», напишите в дополнительной информации «<span style=\"color: #3366ff;\">дополнение к заказу</span>» и Вы получите на него <strong><span style=\"color: #ff0000;\">скидку 12%</span></strong>.</p>
-	<p>Мы отправим новый заказ вместе с основным в одной посылке в течение трех дней после получения Вашего подтверждения.</p>
-	
-	<p>Следите за нашими новостями, каталоги будут постоянно обновляться!</p>
-	<p>Если Ваш заказ не актуален, нажмите, пожалуйста, на кнопку:</p>
-<a href=\"{$keylink1}\"><img src=\"".SITE_URL."templates/101/images/mail_key_dec.jpg\" alt=\"Отменить заказ!\" width=\"213\" height=\"41\" /></a><br><br><p>Обращаем Ваше внимание, что, если в течение пяти рабочих дней ответ от Вас не будет получен, Ваш заказ будет отменен.</p>";
+	<p>Если какие-то растения из Вашего заказа не включены в данный перечень, это означает, что они еще не поступили на наш склад. Оставшиеся растения будут отправлены следующей посылкой.</p>
+	<p>Если Вы хотите дождаться полной комплектации заказа, не нажимайте на кнопку.</p>
+	<p>По мере комплектации Вашего заказа Вам будут приходить новые уведомления.</p>";
 
 //$mail='info@chudoclumba.ru';
 	$res=sendmail_a($mail,'Ваш заказ.',$body,'?utm_source=email_transaction&utm_medium=email&utm_campaign=orderconfirm');
@@ -678,7 +674,6 @@ function getzak()
         {
             $skidka_prd = $row['skidka'];
             $summa_prd = $row['summa'];
-
             $skd = (($summa_prd * $row['count']*$skidka_prd) / 100);
             $skidka_sum += $skd;
             $order_sum += ($summa_prd * $row['count']) - $skd;

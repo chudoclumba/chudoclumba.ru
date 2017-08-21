@@ -822,6 +822,7 @@ class Ishop extends Site{
 				else{
 					$this->get_menu($cat['cat_id'], $this->getMenuRows());
 					if(!isset($_SESSION[CART])){
+					    Logger::Info("Clear CARD from IS:820");
 					    error_log("Clear CARD from IS:820");
 					//    echo "Clear CARD from IS:820";
 						$_SESSION[CART] = Array(); //TODO empty cart
@@ -952,7 +953,8 @@ class Ishop extends Site{
                     //echo "<script type='text/javascript'>alert('$message');</script>";
                //     Logger::Info($message);
                // }
-				if(empty($_SESSION[CART])) {
+				if(!isset($_SESSION[CART]) || empty($_SESSION[CART])) {
+			        Logger::Info("Clear CARD from IS:861");
                     error_log("Clear CARD from IS:861");
                   //  echo "Clear CARD from IS:861";
 				    $_SESSION[CART] = array();
@@ -969,6 +971,7 @@ class Ishop extends Site{
 				{
 					if($_SESSION[CART][$id]['count'] == 0)
 					{
+                        Logger::Info("Clear CARD from IS:877");
                         error_log("Clear CARD from IS:877");
                   //      echo "Clear CARD from IS:877";
 						unset($_SESSION[CART][$id]); //TODO empty cart
