@@ -134,8 +134,8 @@ class Cart extends Site
 					$this->load_cart($_SESSION['cartid']);
 					$this->get_cart_info();
 					$kcart=$this->cart_info;
-					Logger::Info("Clear CARD from MC:133");
-                    error_log("Clear CARD from MC:133");
+				//	Logger::Info("Clear CARD from MC:133");
+                    //error_log("Clear CARD from MC:133");
                    // echo "Clear CARD from MC:133";
 					unset($_SESSION[CART]);  //TODO empty cart
 					if ($this->load_cart_user_id($_SESSION['user'])) $this->load_cart($_SESSION['cartid']);
@@ -143,8 +143,8 @@ class Cart extends Site
 					$this->get_cart_info();
 					$pcart=$this->cart_info;
 					unset($_SESSION['cartid']);
-					Logger::Info("Clear CARD from MC:141");
-                    error_log("Clear CARD from MC:141");
+				//	Logger::Info("Clear CARD from MC:141");
+                    //error_log("Clear CARD from MC:141");
               //      echo "Clear CARD from MC:141";
 					unset($_SESSION[CART]); //TODO empty cart
 					$this->cart_info=NULL;
@@ -196,8 +196,8 @@ class Cart extends Site
 
 	public function ResetCart(){
 		if ($this->cdeb) print_r([99]);
-		Logger::Info("Clear CARD from MC:193");
-        error_log("Clear CARD from MC:193");
+		//Logger::Info("Clear CARD from MC:193");
+        //error_log("Clear CARD from MC:193");
       //  echo "Clear CARD from MC:193";
 			unset($_SESSION[CART]); //TODO empty cart
 			unset($_SESSION['cartid']);
@@ -300,7 +300,7 @@ class Cart extends Site
 		if ($val==0){
 			$res=$this->db->exec("delete from ".TABLE_CART_DET." where cartid='".trim($cartid)."' and prdid=".$id);
             error_log("Clear CARD from MC:295");
-            Logger::Info("Clear CARD from MC:295");
+           // Logger::Info("Clear CARD from MC:295");
         //    echo "Clear CARD from MC:295";
 			unset($_SESSION[CART][$id]); //TODO empty cart
 			return $res;
@@ -382,8 +382,8 @@ class Cart extends Site
 	public function clear_cart()
 	{
 		$unsc=false;
-        error_log("Clear CARD from MC:377");
-        Logger::Info("Clear CARD from MC:377");
+       // error_log("Clear CARD from MC:377");
+       // Logger::Info("Clear CARD from MC:377");
        // echo "Clear CARD from MC:377";
 		unset($_SESSION[CART]); //TODO empty cart
 		if (isset($_SESSION['cartid']) && trim($_SESSION['cartid'])>' ')

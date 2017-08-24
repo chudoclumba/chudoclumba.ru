@@ -32,9 +32,12 @@ function ClearCartItem(id){
 			var er =JSON.parse(html);
 			if (parseInt(er.res) == 1) {
 				if (parseInt(er.sum) == 0){
+					console.log('Remove item case #0');
 					$('#cart_frm').html('<div class="area-title bdr"><h2>ВАША КОРЗИНА, к сожалению, пуста...</h2></div>');
 					$('#cart_btn').html(er.cart);
 				} else {
+					console.log('Remove item case #1');
+					console.log('ITEM #' +id);
 					$('#cp_'+id).remove();
 					$('.sum').html(er.sum);
 					$(".sumsk").html(er.sale);
@@ -55,14 +58,14 @@ function Move_to_wish(id){
 			var er =JSON.parse(html);
 			if (parseInt(er.res) == 1) {
 				if (parseInt(er.sum) == 0){
-					$('#cart_form').html('Корзина пуста...');
-					$('#fixeddiv').html(er.cart);
+					$('#cart_frm').html('<div class="area-title bdr"><h2>ВАША КОРЗИНА, к сожалению, пуста...</h2></div>');
+					$('#cart_btn').html(er.cart);
 				} else {
 					$('#cp_'+id).remove();
-					$("#ctsum").children('span').html(er.sum);
-					$("#ctsale").children('span').html(er.sale);
-					$("#ctasum").children('span').html(er.asum);
-					$('#fixeddiv').html(er.cart);
+					$(".sum").html(er.sum);
+					$(".sumsk").html(er.sale);
+					$(".sumall").html(er.asum);
+					$('#cart_btn').html(er.cart);
 				}
 			}
 		}
