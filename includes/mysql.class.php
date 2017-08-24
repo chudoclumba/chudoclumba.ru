@@ -10,7 +10,8 @@ class MySQL
 	private static $instance;
 	private $database='';
 	private $lasterr = 0;  
-	private $lasterrmsg = '';  
+	private $lasterrmsg = '';
+	private $lastQuery = '';
 	private $showerr = true;  
 	public static function gI() {
 		if (self::$instance === null) {
@@ -33,12 +34,20 @@ class MySQL
 		return true;
 	}
 
+
+	function GetLastQuery()
+    {
+        return $this->lastQuery;
+    }
+
 	function connect($db_host, $db_name, $db_user, $db_pass)//PDO
 	{
 		if ($this->link_id == 0)
 		{   
 			try {
  				$this->pdo = new PDO('mysql:host='.$db_host.';dbname='.$db_name, $db_user, $db_pass);
+             //   $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+              //  $this->pdo->setAttribute(PDO::ATTR_AUTOCOMMIT,1);
  				$this->link_id=1;
 				} catch (PDOException $e) {
 				header('HTTP/1.1 503 Service temporary down');
@@ -224,16 +233,34 @@ class MySQL
 		}
 		$o_name_ex = implode(', ',$o_name);
 		$query     = "UPDATE ".$tbl_name." SET ".$o_name_ex." WHERE ".$o_name_exn."";
+		$this->lastQuery = $query;
 		if (defined('SQLLOG'))
 			$q_start = microtime(true);
-		$res=$this->pdo->exec($query);
+
+		$res = null;
+		$vRes = false;
+		try
+        {
+            $res=$this->pdo->query($query);
+            if (isset($res) && $res != null) {
+                $vRes = true;
+            }
+            //$this->lastQuery=$this->pdo->errorInfo()[2];
+        }
+        catch (PDOexception $e)
+        {
+            $this->lastQuery = $e->getMessage();
+        }
+
+		/*if(!isset($res) || $res == null)
+            $this->update_error($this->pdo->errorInfo());*/
 		$this->query_count++;
 		if (defined('SQLLOG'))
 				$this->query_dump[] = array($query, sprintf('%.5f', microtime(true) - $q_start));
-		if($res===FALSE){
+		if($vRes === false){
 			$this->show_error("Error update: ".$query,$this->pdo->errorInfo());
 		}
-		return $res;
+		return $vRes;
 	}
 
 	function delete($tbl_name,$params)//pdo
@@ -426,7 +453,15 @@ $res='<style type="text/css">
 	{
 		return $this->pdo->rollBack ();
 	}
-    
+
+
+	function update_error($terr=array(0,0,''))
+    {
+        $this->lasterr=$terr[0];
+        $this->lasterrmsg=$terr[2];
+        $this->lastQuery=$terr[2];
+    }
+
 	//Функция вывода ошибок при работе с базой
 	function show_error($msg,$terr=array(0,0,''))
 	{

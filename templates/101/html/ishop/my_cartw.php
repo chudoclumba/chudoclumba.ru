@@ -118,8 +118,13 @@ if(!empty($this->sets['mod_cards']) || ((!empty($this->sets['mod_prd_skidka'])) 
                                     if(isset($promo))
                                     {
                                         ?>
+                                        <h2>Коды скидок</h2>
                                         <div class="discount-form">
-                                            <h2>Вы успешно применили промо код: <?php echo $_SESSION["currentPromoCode"];?></h2>
+                                            <form action="ishop/cart" method="post" id="promo">
+                                                <label>
+                                                    Вы успешно применили промо код: <?php echo $promo->getPromoCode(); ?>
+                                                </label>
+                                            </form>
                                         </div>
                                 <?
                                     }

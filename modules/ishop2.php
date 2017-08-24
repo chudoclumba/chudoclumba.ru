@@ -1317,6 +1317,22 @@ class Ishop extends Site{
 						$tsum=0;
 						$needsave=false;
 						$ordsp='';
+
+                        $comment = !empty($_POST['pcomm']) ? $_POST['pcomm'] : '';
+
+                        $promo = PromoEngine::Instance()->getPromoAssignedToUser($_SESSION['user']);
+                        if(isset($promo) && $promo != null)
+                        {
+                            if(!empty($comment))
+                            {
+                                $comment = ". ПРОМОКОД: ".$promo->getPromoCode();
+                            }
+                            else
+                            {
+                                $comment = "ПРОМОКОД: ".$promo->getPromoCode();
+                            }
+                        }
+
 						$this->db->insert(TABLE_ORDERS_I, array(
 							'data' => $tdt,
 							'user_id' => (!empty($_SESSION['user'])) ? $_SESSION['user'] : 0,
@@ -1324,7 +1340,7 @@ class Ishop extends Site{
 							'fio' => $fio,
 							'tel' => (!empty($_POST['ptel'])) ? $_POST['ptel'] : '',
 							'email' => (!empty($_POST['pemail'])) ? $_POST['pemail'] : '',
-							'comment' => (!empty($_POST['pcomm'])) ? $_POST['pcomm'] : '',
+							'comment' => $comment,
 							'skidka' => $sale
 						));
 						$lord=$this->db->insert_id();
@@ -1334,7 +1350,7 @@ class Ishop extends Site{
 									$res=$this->db->get_rows("select sum((summa-summa*skidka/100)*count) as summas,sum(summa*count) as summa from ".TABLE_ORDERS_PRD." where order_id=".$this->db->escape_string($tz));
 									$dataord['summa']=$res[0]['summa'];	
 									$dataord['skidka']=100-$res[0]['summas']*100/$res[0]['summa'];
-									$dataord['comment'] = (!empty($_POST['pcomm'])) ? $_POST['pcomm'] : '';
+									$dataord['comment'] = $comment;
 									$dataord['datan']=$tdt;
 									$this->db->update(TABLE_ORDERS,$last_id,$dataord);
 									$prdout[$tz]['sum']=$tsum;
@@ -1398,7 +1414,7 @@ class Ishop extends Site{
 							$res=$this->db->get_rows("select sum((summa-summa*skidka/100)*count) as summas,sum(summa*count) as summa from ".TABLE_ORDERS_PRD." where order_id=".$this->db->escape_string($tz));
 							$dataord['summa']=$res[0]['summa'];
 							$dataord['skidka']=100-$res[0]['summas']*100/$res[0]['summa'];
-							$dataord['comment'] = (!empty($_POST['pcomm'])) ? $_POST['pcomm'] : '';
+							$dataord['comment'] = $comment;
 							$dataord['datan']=$tdt;
 							$this->db->update(TABLE_ORDERS,$last_id,$dataord);
 							$prdout[$tz]['sum']=$tsum;

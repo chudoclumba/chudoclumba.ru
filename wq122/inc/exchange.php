@@ -140,10 +140,19 @@ function set_deliveryid(){
 			$last_id = $db->insert_id();
 			return 'Ok deliv_id;'.$last_id.';'.$last_id*2;
 		}
+		else
+        {
+            return 'Error: ins error. SQL error: '.$db->GetLastQuery();
+        }
 	} else {
-		if ($db->update('chudo_ishop_postid',$_GET['deliv_id'], $ins_data)){
+	    $check = $db->update('chudo_ishop_postid',$_GET['deliv_id'], $ins_data);
+		if ($check === true){
 			return 'Ok deliv_id;'.$_GET['deliv_id'].';'.$_GET['deliv_id']*2;
 		}
+		else
+        {
+            return "Error: upd error for deliv_id: ".$_GET['deliv_id']." SQL error:".$db->GetLastQuery()." rows: ".$check;
+        }
 	}
 //	$db->query("delete from chudo_ishop_postid where orderid=".quote_smart($inp[2])." and value=".quote_smart($_POST['delid']));
 	return 'Error.';
