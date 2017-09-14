@@ -1,3 +1,4 @@
+<hr>
 <h3>
 <?
 	if($value['1'] == DEF_MODULE && $row['id']==DEF_ID)
@@ -6,7 +7,10 @@
 	}
 	else
 	{
-		$link = SITE_URL.$value['1'].'/'.$row['id'];
+	    if($value['4'] == '0' || $value['4'] == '1')
+            $link = SITE_URL.$row['vlink'];
+	    else
+		    $link = SITE_URL.$value['1'].'/'.$row['id'];
 	}
 ?>
  <a href="<?=$link?>"><?=$row[$value['2']]?></a>

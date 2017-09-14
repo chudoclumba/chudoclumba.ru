@@ -50,7 +50,14 @@
                              <a href="https://www.youtube.com/channel/UCvEFGWSYzpzFFtKPZzdxEKA" target="_blank"><i class="fa fa-youtube-play"></i></a></div>
                         </div>
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <?
+                        $previous = "javascript:history.go(-1)";
+                        if(isset($_SERVER['HTTP_REFERER'])) {
+                            $previous = $_SERVER['HTTP_REFERER'];
+                        }
+                        ?>
                         <form action="search/1" method="post">
+                            <input type="hidden" value="$previous" />
                         <div class="search-categori">
                             <div class="categori">
                                 <!--form id="select-categoris" method="post" class="form-horizontal"-->

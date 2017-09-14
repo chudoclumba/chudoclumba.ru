@@ -472,6 +472,8 @@ function show_payments($q){
 	ob_end_clean();
 	return $ret;
 }
+
+
 function show_news($q){
 		if (count($q)==0) {
 		return 'Новостей нет.<br>';

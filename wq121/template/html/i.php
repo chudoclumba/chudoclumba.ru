@@ -60,6 +60,7 @@ if (isset($module['scripts']) && !empty($module['scripts'])){
 		  <?php echo button1('Корзины',"gotourl('include.php?place=cart')",'style="width:103px;"','cart')?><br>
 		  <?php echo button1('WishLists',"gotourl('include.php?place=wish')",'style="width:103px;"','wish')?><br>
 		  <?php echo button1('Assist',"gotourl('include.php?place=payments')",'style="width:103px;"','dollar')?><br>
+          <?php echo button1('Промо коды',"gotourl('include.php?place=promo')",'style="width:103px;"','dollar')?><br>
 <?}?>
 <?		  if ($_SESSION['auth']['role']<2){?>
 	  	  <?php echo button1('Настройки',"gotourl('include.php?place=options')",'style="width:103px;"','settings')?><br>
@@ -85,6 +86,7 @@ if (isset($module['scripts']) && !empty($module['scripts'])){
 			echo button1('Заказы',"gotourl('include.php?place=ishop&action=order')",'style="width:103px;"','order').'<br>';
 			echo button1('Корзины',"gotourl('include.php?place=cart')",'style="width:103px;"','cart');
 			echo button1('Assist',"gotourl('include.php?place=payments')",'style="width:103px;"','dollar').'<br>';
+            echo button1('Промо коды',"gotourl('include.php?place=promo')",'style="width:103px;"','dollar').'<br>';
 		}
 		if ($_SESSION['auth']['role']<2){
 	  		echo button1('Настройки',"gotourl('include.php?place=options')",'style="width:103px;"','settings');

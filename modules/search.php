@@ -12,6 +12,7 @@ class Search extends Site
 	}
 	
 	static function form($type = 0) {
+	    Logger::Info("Search method");
 		$str = (!empty($_SESSION['bsearch_str'])) ? htmlspecialchars($_SESSION['bsearch_str'],ENT_COMPAT | ENT_XHTML,'cp1251') : '';
 		$search = Site::gI()->view('search/search_form', array('type' => $type, 'str' => $str));
 		return $search;
@@ -19,6 +20,7 @@ class Search extends Site
 	
 	public function get($str)
 	{
+	    Logger::Info("SSSSSSSSS");
 		if (!isset($_SESSION['seach_ref'])) $_SESSION['seach_ref']=$_SERVER['HTTP_REFERER'];
 		$_SESSION['bsearch_str'] = trim($str);
 		$vq = 0;
@@ -109,11 +111,10 @@ class Search extends Site
 				{
 				
 					$sr_array = array(
-						'site' => array('results1', 'site', 'title', 'html'),
-						'news' => array('results4', 'news', 't', 'txt'),
-						'ishop' => array('results2', 'ishop', 'title', 'text'),
-						'ishop2' => array('results3', 'ishop/product', 'title', 'param_polnoeopisanie')
-						
+                        'ishop2' => array('results3', 'ishop/product', 'title', 'param_polnoeopisanie', '0'),
+                        'ishop' => array('results2', 'ishop', 'title', 'text', '1'),
+						'site' => array('results1', 'site', 'title', 'html', '2'),
+						'news' => array('results4', 'news', 't', 'txt', '3')
 					);
 				
 					$_SESSION['search'] = $str;
