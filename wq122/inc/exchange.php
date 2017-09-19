@@ -59,7 +59,7 @@ function send_ordrep()
  	if (!(count($rows)>0)) return "Error Заказ не найден\n";
  //	$rows = $db->get_rows("SELECT * FROM ".TABLE_PRODUCTS." where  id=".$ord);
   	$body="<p>Здравствуйте!</p><p>Вы делали заказ в нашем интернет магазине «Чудо-клумба» № {$ord}.</p>
- 	<p>На настоящий момент Ваш заказ собран и готов к отправлению в следующей комплектации:</p>";
+ 	<p>На настоящий момент товар из Вашего заказа находится на складе и готовится к отправлению в следующей комплектации:</p>";
  	ob_start();
  ?>
 <table style="border-collapse:collapse;border-width:1px;border-style:solid;border-color:#a2f7aa"><tr><th style="border-width:1px;border-style:solid;border-color:#a2f7aa">Фото</th><th style="border-width:1px;border-style:solid;border-color:#a2f7aa">Наименование</th><th style="border-width:1px;border-style:solid;border-color:#a2f7aa">Цена</th><th style="border-width:1px;border-style:solid;border-color:#a2f7aa">Кол-во</th><th style="border-width:1px;border-style:solid;border-color:#a2f7aa">Стоимость</th></tr>
@@ -102,7 +102,7 @@ function send_ordrep()
 	<p>По мере комплектации Вашего заказа Вам будут приходить новые уведомления.</p>";
 
 //$mail='info@chudoclumba.ru';
-	$res=sendmail_a($mail,'Ваш заказ.',$body,'?utm_source=email_transaction&utm_medium=email&utm_campaign=orderconfirm');
+	$res=sendmail_a($mail,'Ваш заказ. Подтвердите доставку.',$body,'?utm_source=email_transaction&utm_medium=email&utm_campaign=orderconfirm');
 
 	if ($res===true)return "PostOk\n"; else return "PostOk\n notsend";
 
